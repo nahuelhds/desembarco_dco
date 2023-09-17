@@ -7,7 +7,11 @@ export function SocialLinks() {
       <p className={"text-center text-xl"}>
         Seguinos, compartí, faveá, activá la campana y todo lo que ya sabés.
       </p>
-      <div className={"m-2 flex flex-row items-center justify-center"}>
+      <div
+        className={
+          "my-4 mb-12 flex flex-row items-center justify-center lg:mb-4"
+        }
+      >
         {SOCIAL_LINKS.map((socialLink) => (
           <div className={"m-2"} key={socialLink.link}>
             <SocialLink
