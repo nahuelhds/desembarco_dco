@@ -11,10 +11,6 @@ const config: Config = {
       fontFamily: {
         zuume: ["var(--font-zuume)"],
       },
-      backgroundColor: {
-        primary: "var(--color-primary)",
-        secondary: "var(--color-secondary)",
-      },
     },
   },
   plugins: [],
