@@ -42,3 +42,43 @@ body {
   background: url("../public/img/bg-right.svg") right/150px no-repeat;
   transform: translate(0, -50%);
 }
+
+@media screen(sm) {
+  .bg-left {
+    background-size: 175px;
+  }
+
+  .bg-right {
+    background-size: 175px;
+  }
+}
+
+@media screen(md) {
+  .bg-left {
+    background-size: 200px;
+  }
+
+  .bg-right {
+    background-size: 200px;
+  }
+}
+
+@media screen(lg) {
+  .bg-left {
+    background-size: 225px;
+  }
+
+  .bg-right {
+    background-size: 225px;
+  }
+}
+
+@media screen(xl) {
+  .bg-left {
+    background-size: 250px;
+  }
+
+  .bg-right {
+    background-size: 250px;
+  }
+}
