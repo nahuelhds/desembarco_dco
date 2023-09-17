@@ -4,15 +4,15 @@ import { fontDMSans } from "@/app/fonts";
 
 export const metadata: Metadata = {
   title: "Miedo al éxito | Lo relevante",
-  description: "Miedo al éxito | Lo relevante",
+  description: "Separando la señal del ruido",
   openGraph: {
-    title: "Miedo al éxito | Lo relevante",
-    description: "Miedo al éxito | Lo relevante",
+    title: "Miedo al éxito",
+    description: "Lo relevante",
     images: ["/img/metadata-logo.jpg"],
   },
   twitter: {
-    title: "Miedo al éxito | Lo relevante",
-    description: "Miedo al éxito | Lo relevante",
+    title: "Miedo al éxito",
+    description: " Lo relevante",
     images: ["/img/metadata-logo.jpg"],
   },
   appleWebApp: {
