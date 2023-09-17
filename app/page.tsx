@@ -1,24 +1,23 @@
 import Image from "next/image";
 import { fontZuume } from "@/app/fonts";
+import logo from "../public/logo-byn.svg";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen justify-center">
-      <div className={"bg-left"}></div>
-      <div className={"bg-right"}></div>
-      <div className="relative flex place-items-center z-[-1]">
+      <div className={"bg-left opacity-20 md:opacity-50"}></div>
+      <div className={"bg-right opacity-20 md:opacity-50"}></div>
+      <div className="relative flex flex-col place-content-center place-items-center md:flex-row">
         <Image
-          className="relative"
-          src="/logo-byn.svg"
+          className="logo relative h-64 w-64"
+          src={logo}
           alt="Miedo al Éxito"
-          width={200}
-          height={200}
           priority
         />
         <h1 aria-hidden={true} className={"hidden"}>
           Miedo al éxito
         </h1>
-        <h2 className={`m-12 text-8xl font ${fontZuume.className}`}>
+        <h2 className={`text-7xl md:ml-8 md:text-8xl ${fontZuume.className}`}>
           Lo relevante
         </h2>
       </div>

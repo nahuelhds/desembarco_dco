@@ -8,7 +8,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {},
       fontFamily: {
         zuume: ["var(--font-zuume)"],
       },
