@@ -4,9 +4,7 @@ import { CurrencyDollarIcon } from "@heroicons/react/20/solid";
 export function InternationalPaymentLinks() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <p className={"text-center text-lg lg:text-2xl"}>
-        Aportá desde el exterior
-      </p>
+      <p className={"text-center text-lg lg:text-2xl"}>Desde el exterior</p>
       <div
         className={
           "my-4 mb-12 flex w-full grid-cols-none flex-row justify-center lg:mb-4"
