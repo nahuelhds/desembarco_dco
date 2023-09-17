@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     title: "Miedo al éxito",
-    description: " Lo relevante",
+    description: "Lo relevante",
     images: ["/img/metadata-logo.jpg"],
   },
   appleWebApp: {
