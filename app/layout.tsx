@@ -6,8 +6,8 @@ export const metadata: Metadata = {
   title: "Miedo al éxito | Lo relevante",
   description: "Separando la señal del ruido",
   openGraph: {
-    title: "Miedo al éxito",
-    description: "Lo relevante",
+    title: "Miedo al éxito | Lo relevante",
+    description: "Separando la señal del ruido",
     images: ["/img/metadata-logo.jpg"],
   },
   twitter: {
