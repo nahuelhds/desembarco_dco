@@ -1,19 +1,19 @@
+import { INTERNATIONAL_PAYMENTS, PaymentLink } from "@/config/payment-links";
 import { CurrencyDollarIcon } from "@heroicons/react/20/solid";
-import { MONTHLY_SUBSCRIPTIONS, PaymentLink } from "@/config/payment-links";
 
-export function SubscriptionOptions() {
+export function InternationalPaymentLinks() {
   return (
-    <div className="flex flex-col items-center justify-center p-4">
-      <p className={"my-4 text-2xl"}>Suscribite mensualmente</p>
-      <div className={"w-full items-center justify-center md:flex md:flex-row"}>
-        {MONTHLY_SUBSCRIPTIONS.map((monthlySubscription) => (
+    <div className="flex flex-col items-center justify-center p-4 md:p-0">
+      <p className={"my-4 text-2xl"}>Estoy en el exterior</p>
+      <div className={"flex w-full flex-row justify-center"}>
+        {INTERNATIONAL_PAYMENTS.map((internationalPayment) => (
           <div
-            className={"my-4 first:mt-0 md:mx-2 md:my-0 md:w-40"}
-            key={monthlySubscription.link}
+            className={"m-4 flex w-96 place-items-center"}
+            key={internationalPayment.link}
           >
             <PaymentLink
-              link={monthlySubscription.link}
-              name={monthlySubscription.name}
+              link={internationalPayment.link}
+              name={internationalPayment.name}
             />
           </div>
         ))}

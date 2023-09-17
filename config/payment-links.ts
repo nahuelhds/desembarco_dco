@@ -4,7 +4,7 @@ export type PaymentLink = {
 };
 
 // @TODO: set an error link
-export const MONTHLY_SUBSCRIPTIONS = [
+export const MONTHLY_SUBSCRIPTION = [
   {
     name: "100",
     link: process.env.MONTHY_SUBSCRIPTION_0100 ?? "#",
@@ -25,9 +25,13 @@ export const MONTHLY_SUBSCRIPTIONS = [
     name: "1000",
     link: process.env.MONTHY_SUBSCRIPTION_1000 ?? "#",
   },
+  {
+    name: "1500",
+    link: process.env.MONTHY_SUBSCRIPTION_1500 ?? "#",
+  },
 ];
 
-const UNIQUE_PAYMENT = [
+export const UNIQUE_PAYMENTS = [
   {
     name: "100",
     link: process.env.UNIQUE_PAYMENT_0100 ?? "#",
@@ -48,11 +52,15 @@ const UNIQUE_PAYMENT = [
     name: "1000",
     link: process.env.UNIQUE_PAYMENT_1000 ?? "#",
   },
+  {
+    name: "1500",
+    link: process.env.UNIQUE_PAYMENT_1500 ?? "#",
+  },
 ];
 
-const INTERNATIONAL_PAYMENT = [
+export const INTERNATIONAL_PAYMENTS = [
   {
-    name: "Aportá desde el exterior",
+    name: "Aportar por PayPal",
     link: process.env.INTERNATIONAL_PAYMENT ?? "#",
   },
 ];
