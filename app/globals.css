@@ -30,7 +30,7 @@ body {
   left: 0;
   z-index: -1;
   background: url("../public/bg-left.svg") left/25% no-repeat;
-  transform: translate(-10%, -50%);
+  transform: translate(-12%, -50%);
 }
 
 .bg-right::before {
@@ -42,5 +42,5 @@ body {
   right: 0;
   z-index: -1;
   background: url("../public/bg-right.svg") right/25% no-repeat;
-  transform: translate(10%, -50%);
+  transform: translate(12%, -50%);
 }
