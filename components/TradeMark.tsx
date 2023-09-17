@@ -8,7 +8,7 @@ export function TradeMark() {
       <Image
         className="logo h-auto w-52"
         src={logo}
-        alt="Miedo al Éxito"
+        alt="Miedo al éxito"
         priority
       />
       <h1 aria-hidden={true} className={"hidden"}>

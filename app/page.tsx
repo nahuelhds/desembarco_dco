@@ -14,8 +14,8 @@ export default function Home() {
         <UniquePaymentLinks />
         <InternationalPaymentLinks />
       </main>
-      <div className={"block bg-left opacity-5"}></div>
-      <div className={"block bg-right opacity-5"}></div>
+      <div className={"bg-left opacity-5"}></div>
+      <div className={"bg-right opacity-5"}></div>
     </>
   );
 }
