@@ -28,7 +28,7 @@ body {
   top: 50%;
   left: 0;
   z-index: -1;
-  background: url("../public/img/bg-left.svg") left/10% no-repeat;
+  background: url("../public/img/bg-left.svg") left/150px no-repeat;
   transform: translate(0, -50%);
 }
 
@@ -39,6 +39,6 @@ body {
   top: 50%;
   right: 0;
   z-index: -1;
-  background: url("../public/img/bg-right.svg") right/8% no-repeat;
+  background: url("../public/img/bg-right.svg") right/150px no-repeat;
   transform: translate(0, -50%);
 }

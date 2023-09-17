@@ -4,9 +4,9 @@ import logo from "../public/img/logo-byn.svg";
 
 export function TradeMark() {
   return (
-    <div className="flex flex-col place-content-center place-items-center md:flex-row">
+    <div className="mb-4 mt-8 flex flex-col place-content-center place-items-center md:flex-row">
       <Image
-        className="logo h-64 w-64"
+        className="logo h-auto w-64"
         src={logo}
         alt="Miedo al Éxito"
         priority
@@ -14,7 +14,9 @@ export function TradeMark() {
       <h1 aria-hidden={true} className={"hidden"}>
         Miedo al éxito
       </h1>
-      <h2 className={`${fontZuume.className} text-7xl md:ml-8 md:text-8xl `}>
+      <h2
+        className={`${fontZuume.className} mt-8 text-6xl md:ml-8 md:mt-0 md:text-8xl`}
+      >
         Lo relevante
       </h2>
     </div>
