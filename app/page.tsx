@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { fontZuume } from "@/app/fonts";
-import logo from "../public/logo-byn.svg";
+import logo from "../public/img/logo-byn.svg";
 
 export default function Home() {
   return (
