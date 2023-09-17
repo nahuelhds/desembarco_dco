@@ -1,8 +1,12 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 
-const inter = Inter({ subsets: ["latin"] });
+const fontZuume = localFont({
+  src: "./fonts/ZuumeMedium.ttf",
+  display: "swap",
+  variable: "--font-zuume",
+});
 
 export const metadata: Metadata = {
   title: "Miedo al Éxito",
@@ -15,8 +19,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="es" className={fontZuume.className}>
+      <body>{children}</body>
     </html>
   );
 }
