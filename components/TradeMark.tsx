@@ -4,9 +4,9 @@ import logo from "../public/img/logo-byn.svg";
 
 export function TradeMark() {
   return (
-    <div className="mb-4 mt-8 flex flex-col place-content-center place-items-center md:flex-row">
+    <div className="my-4 mb-12 flex flex-col place-content-center place-items-center md:flex-row">
       <Image
-        className="logo h-auto w-64"
+        className="logo h-auto w-52"
         src={logo}
         alt="Miedo al Éxito"
         priority
