@@ -17,7 +17,7 @@ export default function Home() {
         <h1 aria-hidden={true} className={"hidden"}>
           Miedo al éxito
         </h1>
-        <h2 className={`text-7xl md:ml-8 md:text-8xl ${fontZuume.className}`}>
+        <h2 className={`${fontZuume.className} text-7xl md:ml-8 md:text-8xl `}>
           Lo relevante
         </h2>
       </div>
