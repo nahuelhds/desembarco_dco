@@ -1,17 +1,25 @@
 import Image from "next/image";
+import { fontZuume } from "@/app/fonts";
+import logo from "../public/logo-byn.svg";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
+    <main className="flex min-h-screen justify-center">
+      <div className={"bg-left opacity-20 md:opacity-50"}></div>
+      <div className={"bg-right opacity-20 md:opacity-50"}></div>
+      <div className="relative flex flex-col place-content-center place-items-center md:flex-row">
         <Image
-          className="relative dark:inverse"
-          src="/logo.svg"
+          className="logo relative h-64 w-64"
+          src={logo}
           alt="Miedo al Éxito"
-          width={400}
-          height={400}
           priority
         />
+        <h1 aria-hidden={true} className={"hidden"}>
+          Miedo al éxito
+        </h1>
+        <h2 className={`text-7xl md:ml-8 md:text-8xl ${fontZuume.className}`}>
+          Lo relevante
+        </h2>
       </div>
     </main>
   );
