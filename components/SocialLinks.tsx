@@ -5,7 +5,7 @@ export function SocialLinks() {
   return (
     <div className="flex flex-col items-center justify-center">
       <p className={"text-center text-xl"}>
-        Seguinos, compartí, faveá, activá la campana y todo lo que ya sabés.
+        Seguinos, compartí, faveá, activá la campanita y todo lo que ya sabés.
       </p>
       <div
         className={
