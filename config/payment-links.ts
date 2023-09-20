@@ -60,7 +60,7 @@ export const UNIQUE_PAYMENTS = [
 
 export const INTERNATIONAL_PAYMENTS = [
   {
-    name: "Aportar por PayPal",
-    link: process.env.INTERNATIONAL_PAYMENT ?? "#",
+    name: "Contactanos",
+    link: "mailto:miedoalexito.uy@gmail.com",
   },
 ];
