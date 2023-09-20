@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Metadata } from "next";
 import { fontDMSans } from "@/app/fonts";
+import { keywords } from "@/config/metadata";
 import Script from "next/script";
 
 export const metadata: Metadata = {
@@ -20,32 +21,7 @@ export const metadata: Metadata = {
     title: "Miedo al éxito",
     startupImage: ["/img/metadata-logo.jpg"],
   },
-  keywords: [
-    "miedo al éxito",
-    "Lo relevante",
-    "uruguay",
-    "uruguaya",
-    "uruguayo",
-    "valoramos tu tiempo",
-    "separando la señal del ruido",
-    "comunidad",
-    "independiente",
-    "información",
-    "crítica",
-    "realidad uruguaya",
-    "contenido digital",
-    "creador de contenido",
-    "creadores de contenido",
-    "humor",
-    "dinamismo",
-    "datos",
-    "plataforma digital",
-    "medio de comunicación",
-    "comunicación",
-    "medios",
-    "noticias",
-    "resumen semanal",
-  ],
+  keywords,
 };
 
 export default function RootLayout({
