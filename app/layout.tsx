@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     images: ["/img/metadata-logo.jpg"],
   },
   appleWebApp: {
-    title: "Miedo al éxito | Lo relevante",
+    title: "Miedo al éxito",
     startupImage: ["/img/metadata-logo.jpg"],
   },
   keywords: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "creador de contenido",
     "creadores de contenido",
     "humor",
-    "dinamismos",
+    "dinamismo",
     "datos",
     "plataforma digital",
     "medio de comunicación",
