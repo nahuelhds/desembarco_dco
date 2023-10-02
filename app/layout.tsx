@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Metadata } from "next";
 import { fontDMSans } from "@/app/fonts";
+import { keywords } from "@/config/metadata";
 import Script from "next/script";
 
 export const metadata: Metadata = {
@@ -17,35 +18,10 @@ export const metadata: Metadata = {
     images: ["/img/metadata-logo.jpg"],
   },
   appleWebApp: {
-    title: "Miedo al éxito | Lo relevante",
+    title: "Miedo al éxito",
     startupImage: ["/img/metadata-logo.jpg"],
   },
-  keywords: [
-    "miedo al éxito",
-    "Lo relevante",
-    "uruguay",
-    "uruguaya",
-    "uruguayo",
-    "valoramos tu tiempo",
-    "separando la señal del ruido",
-    "comunidad",
-    "independiente",
-    "información",
-    "crítica",
-    "realidad uruguaya",
-    "contenido digital",
-    "creador de contenido",
-    "creadores de contenido",
-    "humor",
-    "dinamismos",
-    "datos",
-    "plataforma digital",
-    "medio de comunicación",
-    "comunicación",
-    "medios",
-    "noticias",
-    "resumen semanal",
-  ],
+  keywords,
 };
 
 export default function RootLayout({

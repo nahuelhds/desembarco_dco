@@ -9,11 +9,16 @@ export function SocialLinks() {
       </p>
       <div
         className={
-          "my-4 mb-12 flex flex-row items-center justify-center lg:mb-4"
+          "my-4 grid w-full grid-cols-3 place-content-evenly md:flex md:grid-cols-none md:flex-row lg:place-content-center"
         }
       >
-        {SOCIAL_LINKS.map((socialLink) => (
-          <div className={"m-2"} key={socialLink.link}>
+        {SOCIAL_LINKS.map((socialLink, index) => (
+          <div
+            className={`mx-2 my-4 lg:mx-8 lg:my-4 ${
+              index % 4 === 0 ? "grid-start-1" : ""
+            }`}
+            key={socialLink.link}
+          >
             <SocialLink
               link={socialLink.link}
               icon={socialLink.icon}
