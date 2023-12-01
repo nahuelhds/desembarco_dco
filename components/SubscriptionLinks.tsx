@@ -7,7 +7,7 @@ export function SubscriptionLinks() {
       <p className={"text-center text-2xl lg:text-4xl"}>Aportá mensualmente</p>
       <div
         className={
-          "my-4 mb-12 grid w-full grid-cols-2 justify-center lg:mb-4 lg:flex lg:grid-cols-none lg:flex-row"
+          "my-4 mb-12 grid w-full grid-cols-2 justify-center lg:mb-8 lg:flex lg:grid-cols-none lg:flex-row"
         }
       >
         {MONTHLY_SUBSCRIPTION.map((monthlySubscription) => (

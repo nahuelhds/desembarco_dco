@@ -58,6 +58,13 @@ export const UNIQUE_PAYMENTS = [
   },
 ];
 
+export const BANK_TRANSFER_LINKS = [
+  {
+    name: "Itaú, BROU o Santander",
+    link: process.env.BANK_TRANSFER_PAYMENT ?? "#",
+  },
+];
+
 export const INTERNATIONAL_PAYMENTS = [
   {
     name: "Aportar por PayPal",
