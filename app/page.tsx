@@ -15,10 +15,10 @@ export default function Home() {
         <UniquePaymentLinks />
         <div className={"lg:flex lg:items-center lg:justify-center"}>
           <div className={"lg:mx-2"}>
-            <InternationalPaymentLinks />
+            <BankTransferLinks />
           </div>
           <div className={"lg:mx-2"}>
-            <BankTransferLinks />
+            <InternationalPaymentLinks />
           </div>
         </div>
       </main>
