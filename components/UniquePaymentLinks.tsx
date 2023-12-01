@@ -7,7 +7,7 @@ export function UniquePaymentLinks() {
       <p className={"text-center text-xl lg:text-3xl"}>Hacé un aporte único</p>
       <div
         className={
-          "my-4 mb-12 grid w-full grid-cols-2 justify-center lg:mb-8 lg:flex lg:grid-cols-none lg:flex-row"
+          "my-4 mb-12 grid w-full grid-cols-2 justify-center lg:mb-6 lg:flex lg:grid-cols-none lg:flex-row"
         }
       >
         {UNIQUE_PAYMENTS.map((uniquePayment) => (

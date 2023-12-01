@@ -5,7 +5,7 @@ export function BankTransferLinks() {
   return (
     <div className="flex flex-col items-center justify-center">
       <p className={"text-center text-xl lg:text-2xl"}>
-        Trasnferencia bancaria
+        Transferencia bancaria
       </p>
       <div
         className={

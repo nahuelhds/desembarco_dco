@@ -9,7 +9,7 @@ export function SocialLinks() {
       </p>
       <div
         className={
-          "my-4 grid w-full grid-cols-3 place-content-evenly md:flex md:grid-cols-none md:flex-row lg:place-content-center"
+          "my-2 grid w-full grid-cols-3 place-content-evenly md:flex md:grid-cols-none md:flex-row lg:place-content-center"
         }
       >
         {SOCIAL_LINKS.map((socialLink, index) => (

@@ -13,8 +13,14 @@ export default function Home() {
         <SocialLinks />
         <SubscriptionLinks />
         <UniquePaymentLinks />
-        <InternationalPaymentLinks />
-        <BankTransferLinks />
+        <div className={"lg:flex lg:items-center lg:justify-center"}>
+          <div className={"lg:mx-2"}>
+            <InternationalPaymentLinks />
+          </div>
+          <div className={"lg:mx-2"}>
+            <BankTransferLinks />
+          </div>
+        </div>
       </main>
       <div className={"bg-left opacity-5"}></div>
       <div className={"bg-right opacity-5"}></div>
