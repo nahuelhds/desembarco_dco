@@ -60,7 +60,7 @@ export const UNIQUE_PAYMENTS = [
 
 export const BANK_TRANSFER_LINKS = [
   {
-    name: "Itaú, BROU o Santander",
+    name: "BROU o Itaú",
     link: process.env.BANK_TRANSFER_PAYMENT ?? "#",
   },
 ];
