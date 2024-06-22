@@ -82,3 +82,7 @@ body {
     background-size: 250px;
   }
 }
+
+.filter-mae{
+  filter: invert(100%) sepia(100%) saturate(10000%) hue-rotate(180deg) brightness(100%) contrast(100%);
+}
