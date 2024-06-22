@@ -23,4 +23,8 @@ export const keywords = [
   "medios",
   "noticias",
   "resumen semanal",
+  "campaña del miedo",
+  "miedo al lunes",
+  "miedo a los fallos",
+  "newsletter"
 ];
