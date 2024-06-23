@@ -1,8 +1,10 @@
-import FacebookIcon from "@/app/icons/facebook.svg";
+// import FacebookIcon from "@/app/icons/facebook.svg";
 import InstagramIcon from "@/app/icons/instagram.svg";
 import SpotifyIcon from "@/app/icons/spotify.svg";
 import TikTokIcon from "@/app/icons/tiktok.svg";
 import XIcon from "@/app/icons/x.svg";
+// import ThreadsIcon from "@/app/icons/threads.svg";
+import TwitchIcon from "@/app/icons/twitch.svg";
 import YouTubeIcon from "@/app/icons/youtube.svg";
 import { StaticImport } from "next/dist/shared/lib/get-img-props";
 
@@ -21,14 +23,19 @@ export const SOCIAL_LINKS: SocialLink[] = [
     link: "https://www.youtube.com/@miedoalexito_uy",
   },
   {
-    name: "TikTok",
-    icon: TikTokIcon,
-    link: "https://www.tiktok.com/@miedoalexito_uy",
+    name: "Twitch",
+    icon: TwitchIcon,
+    link: "https://www.twitch.tv/miedoalexito_uy",
   },
   {
     name: "Spotify",
     icon: SpotifyIcon,
     link: "https://open.spotify.com/show/0xlYUQCFKYmYqV1gp0MNtz?si=a910249d860943f9",
+  },
+  {
+    name: "TikTok",
+    icon: TikTokIcon,
+    link: "https://www.tiktok.com/@miedoalexito_uy",
   },
   {
     name: "Instagram",
@@ -45,9 +52,9 @@ export const SOCIAL_LINKS: SocialLink[] = [
   //   icon: ThreadsIcon,
   //   link: "https://www.threads.net/@miedoalexito_uy",
   // },
-  {
-    name: "Facebook",
-    icon: FacebookIcon,
-    link: "https://www.facebook.com/miedoalexito.uy",
-  },
+  // {
+  //   name: "Facebook",
+  //   icon: FacebookIcon,
+  //   link: "https://www.facebook.com/miedoalexito.uy",
+  // },
 ];
