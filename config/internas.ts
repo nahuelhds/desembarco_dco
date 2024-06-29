@@ -2,81 +2,103 @@ import { Candidate } from "@/app/types";
 
 export const FIXED_DECIMALS = 1;
 
+function sortByVoteCount(a: Candidate, b: Candidate) {
+  if (a.voteCount === b.voteCount) {
+    return a.lastName > b.lastName ? 1 : -1;
+  }
+
+  return a.voteCount < b.voteCount ? 1 : -1;
+}
+
 export const candidatesFA: Candidate[] = [
   {
     key: "cosse",
-    name: "Carolina Cosse",
-    voteCount: 100,
+    name: "Carolina",
+    lastName: "Cosse",
+    voteCount: 100
   },
   {
     key: "orsi",
-    name: "Yamandú Orsi",
-    voteCount: 100,
+    name: "Yamandú",
+    lastName: "Orsi",
+    voteCount: 100
   },
   {
     key: "lima",
-    name: "Andrés Lima",
-    voteCount: 100,
+    name: "Andrés",
+    lastName: "Lima",
+    voteCount: 100
   }
-];
+].sort(sortByVoteCount);
 
 export const candidatesPN: Candidate[] = [
   {
     key: "delgado",
-    name: "Álvaro Delgado",
-    voteCount: 100,
+    name: "Álvaro",
+    lastName: "Delgado",
+    voteCount: 100
   },
   {
     key: "raffo",
-    name: "Laura Raffo",
-    voteCount: 100,
+    name: "Laura",
+    lastName: "Raffo",
+    voteCount: 100
   },
   {
     key: "gandini",
-    name: "Jorge Gandini",
-    voteCount: 100,
+    name: "Jorge",
+    lastName: "Gandini",
+    voteCount: 100
   },
   {
     key: "iafigliola",
-    name: "Carlos Iafigliola",
-    voteCount: 100,
+    name: "Carlos",
+    lastName: "Iafigliola",
+    voteCount: 100
   },
   {
     key: "corbran",
-    name: "Roxana Corbran",
-    voteCount: 100,
+    name: "Roxana",
+    lastName: "Corbran",
+    voteCount: 100
   }
-];
+].sort(sortByVoteCount);
 
 export const candidatesPC: Candidate[] = [
   {
     key: "ojeda",
-    name: "Andrés Ojeda",
-    voteCount: 100,
+    name: "Andrés",
+    lastName: "Ojeda",
+    voteCount: 100
   },
   {
     key: "viera",
-    name: "Tabaré Viera",
-    voteCount: 100,
+    name: "Tabaré",
+    lastName: "Viera",
+    voteCount: 100
   },
   {
     key: "silva",
-    name: "Robert Silva",
-    voteCount: 100,
+    name: "Robert",
+    lastName: "Silva",
+    voteCount: 100
   },
   {
     key: "gurmendez",
-    name: "Gabriel Gurméndez",
-    voteCount: 100,
+    name: "Gabriel",
+    lastName: "Gurméndez",
+    voteCount: 100
   },
   {
     key: "ache",
-    name: "Carolina Ache",
-    voteCount: 100,
+    name: "Carolina",
+    lastName: "Ache",
+    voteCount: 100
   },
   {
     key: "zaida",
-    name: "Zaida González",
-    voteCount: 100,
+    name: "Zaida",
+    lastName: "González",
+    voteCount: 100
   }
-];
+].sort(sortByVoteCount);
