@@ -2,6 +2,12 @@ import { Candidate } from "@/app/types";
 
 export const FIXED_DECIMALS = 1;
 
+// Info https://es.wikipedia.org/wiki/Elecciones_internas_de_Uruguay_de_2024
+export const grandTotalVoteCount= 2766323;
+
+// Mesas escrutadas
+export const voteProgress = 0
+
 const candidatesFA: Candidate[] = [
   {
     key: "cosse",
@@ -95,7 +101,7 @@ const candidatesPC: Candidate[] = [
   }
 ].sort(sortByVoteCount);
 
-type Party = {
+export type Party = {
   name: string;
   candidates: Candidate[];
 };
