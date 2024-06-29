@@ -1,43 +1,9 @@
-type Candidate = {
-  name: string;
-  percentage: number;
-  key: string;
-};
-
-const FIXED_DECIMALS = 1;
-
-const candidates: Candidate[] = [
-  {
-    key: "delgado",
-    name: "Álvaro Delgado",
-    percentage: 60
-  },
-  {
-    key: "raffo",
-    name: "Laura Raffo",
-    percentage: 20
-  },
-  {
-    key: "gandini",
-    name: "Jorge Gandini",
-    percentage: 10
-  },
-  {
-    key: "iafigliola",
-    name: "Carlos Iafigliola",
-    percentage: 6
-  },
-  {
-    key: "corbran",
-    name: "Roxana Corbran",
-    percentage: 5
-  }
-];
+import { FIXED_DECIMALS, candidatesPN } from "@/config/internas";
 
 export default function CandidatesPNPage() {
   return (
     <main className="party partido-nacional flex flex-row min-h-screen justify-evenly items-center">
-      {candidates
+      {candidatesPN
         .sort((a, b) => a.percentage < b.percentage ? 1 : -1)
         .map(({ key, percentage }) =>
           <div key={key} className="parallelogram">
