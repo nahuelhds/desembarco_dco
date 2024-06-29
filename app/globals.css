@@ -195,22 +195,30 @@ body {
     background-image: url("../public/internas/bg-partido-nacional.png");
 }
 
-/*.delgado {*/
-/*    background-image: url("../public/internas/partido-nacional/delgado.png");*/
-/*}*/
+.partido-nacional .parallelogram {
+    width: 275px;
+}
 
-/*.raffo {*/
-/*    background-image: url("../public/internas/partido-nacional/raffo.png");*/
-/*}*/
+.partido-nacional .candidate {
+    margin-left: -175px;
+}
 
-/*.corbran {*/
-/*    background-image: url("../public/internas/partido-nacional/corbran.png");*/
-/*}*/
+.delgado {
+    background-image: url("../public/internas/candidatos/delgado.png");
+}
 
-/*.gandini {*/
-/*    background-image: url("../public/internas/partido-nacional/gandini.png");*/
-/*}*/
+.raffo {
+    background-image: url("../public/internas/candidatos/raffo.png");
+}
 
-/*.iafigliola {*/
-/*    background-image: url("../public/internas/partido-nacional/iafigliola.png");*/
-/*}*/
+.corbran {
+    background-image: url("../public/internas/candidatos/corbran.png");
+}
+
+.gandini {
+    background-image: url("../public/internas/candidatos/gandini.png");
+}
+
+.iafigliola {
+    background-image: url("../public/internas/candidatos/iafigliola.png");
+}
