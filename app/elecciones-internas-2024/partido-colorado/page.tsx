@@ -16,6 +16,7 @@ export default function CandidatesPCPage() {
             </div>
           </div>
           <div className={"candidate-name flex flex-col items-center justify-center"}>
+            <span className={"first-name"}>{name}</span>
             <span className={"last-name"}>{lastName}</span>
           </div>
         </div>

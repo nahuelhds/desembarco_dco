@@ -202,10 +202,14 @@ body {
     width: 100%;
 }
 
+.candidate-name .first-name{
+    font-size: 1.25rem;
+}
+
 .candidate-name .last-name{
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 2.25rem;
 }
 
 .partido-colorado .parallelogram {
