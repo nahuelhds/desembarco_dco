@@ -117,16 +117,20 @@ body {
     transform: skew(10deg);
 }
 
+.percentage-container{
+    bottom: 50px;
+}
+
 .percentage {
     transform: skew(10deg);
     font-size: 2.75rem;
+    font-weight: bold;
     margin: auto;
     color: #fff;
     border-radius: 150px;
     width: 150px;
     height: 150px;
     background: linear-gradient(to bottom right, #7143FF, #FC5E0E);
-    bottom: 50px;
 }
 
 .cosse {

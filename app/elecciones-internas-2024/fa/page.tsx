@@ -6,6 +6,8 @@ type Candidate = {
   key: string;
 };
 
+const FIXED_DECIMALS = 1;
+
 const candidates: Candidate[] = [
   {
     key: "cosse",
@@ -23,6 +25,7 @@ const candidates: Candidate[] = [
     percentage: 3.2
   }
 ];
+
 export default function CandidatesFAPage() {
   return (
     <main className="frente-amplio flex flex-row min-h-screen justify-evenly items-center">
@@ -31,8 +34,8 @@ export default function CandidatesFAPage() {
         .map(({ key, percentage }) =>
           <div key={key} className="parallelogram">
             <div className={`candidate ${key}`} />
-            <div className={"absolute bottom-8 w-full"}>
-              <div className={"percentage flex items-center justify-center"}>{percentage.toFixed(1)}%</div>
+            <div className={"absolute bottom-8 w-full percentage-container"}>
+              <div className={"percentage flex items-center justify-center"}>{percentage.toFixed(FIXED_DECIMALS)}%</div>
             </div>
           </div>
         )}
