@@ -7,19 +7,19 @@ export const candidatesFA: Candidate[] = [
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 2000
+    voteCount: 100
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 2500
+    voteCount: 100
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 150
+    voteCount: 100
   }
 ].sort(sortByVoteCount);
 
