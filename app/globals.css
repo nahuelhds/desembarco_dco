@@ -3,86 +3,140 @@
 @tailwind utilities;
 
 :root {
-  --color-white: #ffffff;
-  --color-black: #000000;
-  --color-primary: #7143ff;
-  --color-secondary: #fc5e0e;
-  --font-color: var(--color-white);
-  --background-color-primary: var(--color-primary);
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-primary: #7143ff;
+    --color-secondary: #fc5e0e;
+    --font-color: var(--color-white);
+    --background-color-primary: var(--color-primary);
 }
 
 body {
-  color: var(--font-color);
-  background-color: var(--background-color-primary);
-  /*background: linear-gradient(*/
-  /*        to bottom,*/
-  /*        transparent,*/
-  /*        var(--color-secondary)*/
-  /*) var(--color-primary);*/
+    color: var(--font-color);
+    background-color: var(--background-color-primary);
+    /*background: linear-gradient(*/
+    /*        to bottom,*/
+    /*        transparent,*/
+    /*        var(--color-secondary)*/
+    /*) var(--color-primary);*/
 }
 
 .bg-left {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 50%;
-  left: 0;
-  z-index: -1;
-  background: url("../public/img/bg-left.svg") left/150px no-repeat;
-  transform: translate(0, -50%);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 0;
+    z-index: -1;
+    background: url("../public/img/bg-left.svg") left/150px no-repeat;
+    transform: translate(0, -50%);
 }
 
 .bg-right {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 50%;
-  right: 0;
-  z-index: -1;
-  background: url("../public/img/bg-right.svg") right/150px no-repeat;
-  transform: translate(0, -50%);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    right: 0;
+    z-index: -1;
+    background: url("../public/img/bg-right.svg") right/150px no-repeat;
+    transform: translate(0, -50%);
 }
 
 @media screen(sm) {
-  .bg-left {
-    background-size: 175px;
-  }
+    .bg-left {
+        background-size: 175px;
+    }
 
-  .bg-right {
-    background-size: 175px;
-  }
+    .bg-right {
+        background-size: 175px;
+    }
 }
 
 @media screen(md) {
-  .bg-left {
-    background-size: 200px;
-  }
+    .bg-left {
+        background-size: 200px;
+    }
 
-  .bg-right {
-    background-size: 200px;
-  }
+    .bg-right {
+        background-size: 200px;
+    }
 }
 
 @media screen(lg) {
-  .bg-left {
-    background-size: 225px;
-  }
+    .bg-left {
+        background-size: 225px;
+    }
 
-  .bg-right {
-    background-size: 225px;
-  }
+    .bg-right {
+        background-size: 225px;
+    }
 }
 
 @media screen(xl) {
-  .bg-left {
-    background-size: 250px;
-  }
+    .bg-left {
+        background-size: 250px;
+    }
 
-  .bg-right {
-    background-size: 250px;
-  }
+    .bg-right {
+        background-size: 250px;
+    }
 }
 
-.filter-mae{
-  filter: invert(100%) sepia(100%) saturate(10000%) hue-rotate(180deg) brightness(100%) contrast(100%);
+.filter-mae {
+    filter: invert(100%) sepia(100%) saturate(10000%) hue-rotate(180deg) brightness(100%) contrast(100%);
+}
+
+.full-obs {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.frente-amplio {
+    background-image: url("../public/internas/fa/bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.parallelogram {
+    width: 400px;
+    height: 650px;
+    background-color: #fff;
+    background-size: cover;
+    transform: skew(-10deg);
+    overflow: hidden;
+    position: relative;
+}
+
+.parallelogram > .candidate {
+    margin-left: -135px;
+    width: 650px;
+    height: 650px;
+    transform: skew(10deg);
+}
+
+.percentage {
+    transform: skew(10deg);
+    font-size: 2.75rem;
+    margin: auto;
+    color: #fff;
+    border-radius: 150px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(to bottom right, #7143FF, #FC5E0E);
+    bottom: 50px;
+}
+
+.cosse {
+    background-image: url("../public/internas/fa/cosse.png");
+}
+
+.orsi {
+    background-image: url("../public/internas/fa/orsi.png");
+}
+
+.lima {
+    background-image: url("../public/internas/fa/lima.png");
 }
