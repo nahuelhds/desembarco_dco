@@ -1,6 +1,11 @@
 import { FIXED_DECIMALS, candidatesFA } from "@/config/internas";
+import { Metadata } from "next";
 
 const totalCount = candidatesFA.reduce((previousValue, currentValue) => previousValue + currentValue.voteCount, 0);
+
+export const metadata: Metadata = {
+  title: "Frente Amplio - Resultados Elecciones Internas 2024 | Bunkerland - Miedo al éxito",
+};
 
 export default function CandidatesFAPage() {
   return (

@@ -1,6 +1,11 @@
 import { FIXED_DECIMALS, candidatesPC } from "@/config/internas";
+import { Metadata } from "next";
 
 const totalCount = candidatesPC.reduce((previousValue, currentValue) => previousValue + currentValue.voteCount, 0);
+
+export const metadata: Metadata = {
+  title: "Partido Colorado - Resultados Elecciones Internas 2024 | Bunkerland - Miedo al éxito",
+};
 
 export default function CandidatesPCPage() {
   return (

@@ -26,5 +26,10 @@ export const keywords = [
   "campaña del miedo",
   "miedo al lunes",
   "miedo a los fallos",
-  "newsletter"
+  "newsletter",
+  "bunkerland",
+  "elecciones internas",
+  "elecciones internas 2024",
+  "resultados elecciones",
+  "resultados elecciones internas",
 ];
