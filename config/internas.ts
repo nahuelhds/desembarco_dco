@@ -2,32 +2,24 @@ import { Candidate } from "@/app/types";
 
 export const FIXED_DECIMALS = 1;
 
-function sortByVoteCount(a: Candidate, b: Candidate) {
-  if (a.voteCount === b.voteCount) {
-    return a.lastName > b.lastName ? 1 : -1;
-  }
-
-  return a.voteCount < b.voteCount ? 1 : -1;
-}
-
 export const candidatesFA: Candidate[] = [
   {
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 100
+    voteCount: 2000
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 100
+    voteCount: 2500
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 100
+    voteCount: 150
   }
 ].sort(sortByVoteCount);
 
@@ -102,3 +94,11 @@ export const candidatesPC: Candidate[] = [
     voteCount: 100
   }
 ].sort(sortByVoteCount);
+
+function sortByVoteCount(a: Candidate, b: Candidate) {
+  if (a.voteCount === b.voteCount) {
+    return a.lastName > b.lastName ? 1 : -1;
+  }
+
+  return a.voteCount < b.voteCount ? 1 : -1;
+}
