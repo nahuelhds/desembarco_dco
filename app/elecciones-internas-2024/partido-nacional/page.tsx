@@ -36,7 +36,7 @@ const candidates: Candidate[] = [
 
 export default function CandidatesPNPage() {
   return (
-    <main className="partido-nacional flex flex-row min-h-screen justify-evenly items-center">
+    <main className="party partido-nacional flex flex-row min-h-screen justify-evenly items-center">
       {candidates
         .sort((a, b) => a.percentage < b.percentage ? 1 : -1)
         .map(({ key, percentage }) =>

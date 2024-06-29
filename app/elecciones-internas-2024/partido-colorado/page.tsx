@@ -41,7 +41,7 @@ const candidates: Candidate[] = [
 
 export default function CandidatesPCPage() {
   return (
-    <main className="partido-colorado flex flex-row min-h-screen justify-evenly items-center">
+    <main className="party partido-colorado flex flex-row min-h-screen justify-evenly items-center">
       {candidates
         .sort((a, b) => a.percentage < b.percentage ? 1 : -1)
         .map(({ key, percentage }) =>
