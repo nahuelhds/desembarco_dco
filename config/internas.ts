@@ -2,7 +2,7 @@ import { Candidate } from "@/app/types";
 
 export const FIXED_DECIMALS = 1;
 
-export const candidatesFA: Candidate[] = [
+const candidatesFA: Candidate[] = [
   {
     key: "cosse",
     name: "Carolina",
@@ -23,7 +23,7 @@ export const candidatesFA: Candidate[] = [
   }
 ].sort(sortByVoteCount);
 
-export const candidatesPN: Candidate[] = [
+const candidatesPN: Candidate[] = [
   {
     key: "delgado",
     name: "Álvaro",
@@ -56,7 +56,7 @@ export const candidatesPN: Candidate[] = [
   }
 ].sort(sortByVoteCount);
 
-export const candidatesPC: Candidate[] = [
+const candidatesPC: Candidate[] = [
   {
     key: "ojeda",
     name: "Andrés",
@@ -94,6 +94,26 @@ export const candidatesPC: Candidate[] = [
     voteCount: 100
   }
 ].sort(sortByVoteCount);
+
+type Party = {
+  name: string;
+  candidates: Candidate[];
+};
+
+export const PARTY: { [key: string]: Party } = {
+  "frente-amplio": {
+    name: "Frente Amplio",
+    candidates: candidatesFA
+  },
+  "partido-colorado": {
+    name: "Partido Colorado",
+    candidates: candidatesPC
+  },
+  "partido-nacional": {
+    name: "Partido Nacional",
+    candidates: candidatesPN
+  }
+};
 
 function sortByVoteCount(a: Candidate, b: Candidate) {
   if (a.voteCount === b.voteCount) {
