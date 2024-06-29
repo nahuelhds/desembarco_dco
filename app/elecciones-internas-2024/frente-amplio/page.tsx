@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 type Candidate = {
   name: string;
   percentage: number;
@@ -28,7 +26,7 @@ const candidates: Candidate[] = [
 
 export default function CandidatesFAPage() {
   return (
-    <main className="frente-amplio flex flex-row min-h-screen justify-evenly items-center">
+    <main className="party frente-amplio flex flex-row min-h-screen justify-evenly items-center">
       {candidates
         .sort((a, b) => a.percentage < b.percentage ? 1 : -1)
         .map(({ key, percentage }) =>

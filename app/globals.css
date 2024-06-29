@@ -93,15 +93,7 @@ body {
 
 }
 
-.frente-amplio {
-    background-image: url("../public/internas/fa/bg.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-}
-
 .parallelogram {
-    width: 400px;
     height: 650px;
     background-color: #fff;
     background-size: cover;
@@ -111,13 +103,12 @@ body {
 }
 
 .parallelogram > .candidate {
-    margin-left: -135px;
     width: 650px;
     height: 650px;
     transform: skew(10deg);
 }
 
-.percentage-container{
+.percentage-container {
     bottom: 50px;
 }
 
@@ -130,17 +121,96 @@ body {
     border-radius: 150px;
     width: 150px;
     height: 150px;
-    background: linear-gradient(to bottom right, #7143FF, #FC5E0E);
+    background-color: #000;
+    /*background: linear-gradient(to bottom right, #7143FF, #FC5E0E);*/
+}
+
+.party {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.frente-amplio {
+    background-image: url("../public/internas/bg-frente-amplio.png");
+}
+
+.frente-amplio .parallelogram {
+    width: 400px;
+}
+
+.frente-amplio .candidate {
+    margin-left: -135px;
 }
 
 .cosse {
-    background-image: url("../public/internas/fa/cosse.png");
+    background-image: url("../public/internas/candidatos/cosse.png");
 }
 
 .orsi {
-    background-image: url("../public/internas/fa/orsi.png");
+    background-image: url("../public/internas/candidatos/orsi.png");
 }
 
 .lima {
-    background-image: url("../public/internas/fa/lima.png");
+    background-image: url("../public/internas/candidatos/lima.png");
 }
+
+.partido-colorado {
+    background-image: url("../public/internas/bg-partido-colorado.png");
+}
+
+.partido-colorado .parallelogram {
+    width: 200px;
+}
+
+.partido-colorado .candidate {
+    margin-left: -200px;
+}
+
+.ojeda {
+    background-image: url("../public/internas/candidatos/ojeda.png");
+}
+
+.viera {
+    background-image: url("../public/internas/candidatos/viera.png");
+}
+
+.silva {
+    background-image: url("../public/internas/candidatos/silva.png");
+}
+
+.gurmendez {
+    background-image: url("../public/internas/candidatos/gurmendez.png");
+}
+
+.ache {
+    background-image: url("../public/internas/candidatos/ache.png");
+}
+
+.zaida {
+    background-image: url("../public/internas/candidatos/zaida.png");
+}
+
+.partido-nacional {
+    background-image: url("../public/internas/bg-partido-nacional.png");
+}
+
+/*.delgado {*/
+/*    background-image: url("../public/internas/partido-nacional/delgado.png");*/
+/*}*/
+
+/*.raffo {*/
+/*    background-image: url("../public/internas/partido-nacional/raffo.png");*/
+/*}*/
+
+/*.corbran {*/
+/*    background-image: url("../public/internas/partido-nacional/corbran.png");*/
+/*}*/
+
+/*.gandini {*/
+/*    background-image: url("../public/internas/partido-nacional/gandini.png");*/
+/*}*/
+
+/*.iafigliola {*/
+/*    background-image: url("../public/internas/partido-nacional/iafigliola.png");*/
+/*}*/
