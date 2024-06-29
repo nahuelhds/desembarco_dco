@@ -10,17 +10,17 @@ const candidates: Candidate[] = [
   {
     key: "cosse",
     name: "Carolina Cosse",
-    percentage: 44.54
+    percentage: 45
   },
   {
     key: "orsi",
     name: "Yamandú Orsi",
-    percentage: 88.36
+    percentage: 47
   },
   {
     key: "lima",
     name: "Andrés Lima",
-    percentage: 3.2
+    percentage: 8
   }
 ];
 
