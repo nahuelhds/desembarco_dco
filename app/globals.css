@@ -135,12 +135,12 @@ body {
     background-image: url("../public/internas/bg-frente-amplio.png");
 }
 
-.frente-amplio .parallelogram {
-    width: 400px;
+.partido-nacional {
+    background-image: url("../public/internas/bg-partido-nacional.png");
 }
 
-.frente-amplio .candidate {
-    margin-left: -135px;
+.partido-colorado {
+    background-image: url("../public/internas/bg-partido-colorado.png");
 }
 
 .cosse {
@@ -153,18 +153,6 @@ body {
 
 .lima {
     background-image: url("../public/internas/candidatos/lima.png");
-}
-
-.partido-colorado {
-    background-image: url("../public/internas/bg-partido-colorado.png");
-}
-
-.partido-colorado .parallelogram {
-    width: 225px;
-}
-
-.partido-colorado .candidate {
-    margin-left: -200px;
 }
 
 .ojeda {
@@ -191,18 +179,6 @@ body {
     background-image: url("../public/internas/candidatos/zaida.png");
 }
 
-.partido-nacional {
-    background-image: url("../public/internas/bg-partido-nacional.png");
-}
-
-.partido-nacional .parallelogram {
-    width: 275px;
-}
-
-.partido-nacional .candidate {
-    margin-left: -175px;
-}
-
 .delgado {
     background-image: url("../public/internas/candidatos/delgado.png");
 }
@@ -221,4 +197,28 @@ body {
 
 .iafigliola {
     background-image: url("../public/internas/candidatos/iafigliola.png");
+}
+
+.frente-amplio .parallelogram {
+    width: 400px;
+}
+
+.frente-amplio .candidate {
+    margin-left: -135px;
+}
+
+.partido-colorado .parallelogram {
+    width: 225px;
+}
+
+.partido-colorado .candidate {
+    margin-left: -200px;
+}
+
+.partido-nacional .parallelogram {
+    width: 275px;
+}
+
+.partido-nacional .candidate {
+    margin-left: -175px;
 }
