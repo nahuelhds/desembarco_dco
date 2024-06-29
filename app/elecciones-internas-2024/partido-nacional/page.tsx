@@ -9,27 +9,27 @@ const FIXED_DECIMALS = 1;
 const candidates: Candidate[] = [
   {
     key: "delgado",
-    name: "Carolina Cosse",
+    name: "Álvaro Delgado",
     percentage: 60
   },
   {
     key: "raffo",
-    name: "Yamandú Orsi",
+    name: "Laura Raffo",
     percentage: 20
   },
   {
     key: "gandini",
-    name: "Andrés Lima",
+    name: "Jorge Gandini",
     percentage: 10
   },
   {
     key: "iafigliola",
-    name: "Andrés Lima",
+    name: "Carlos Iafigliola",
     percentage: 6
   },
   {
     key: "corbran",
-    name: "Andrés Lima",
+    name: "Roxana Corbran",
     percentage: 5
   }
 ];
