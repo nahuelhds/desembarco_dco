@@ -9,4 +9,4 @@ export const ZOCALO_CANDIDATES_QTY = 3;
 export const grandTotalVoteCount = 2766323;
 
 // Mesas escrutadas
-export const voteProgress = 33;
+export const voteProgress = 35;
