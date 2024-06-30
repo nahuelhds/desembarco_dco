@@ -116,15 +116,15 @@ body {
     background-size: cover;
 }
 
-.frente-amplio {
+.party.frente-amplio {
     background-image: url("../public/internas/bg-frente-amplio.jpg");
 }
 
-.partido-nacional {
+.party.partido-nacional {
     background-image: url("../public/internas/bg-partido-nacional.jpg");
 }
 
-.partido-colorado {
+.party.partido-colorado {
     background-image: url("../public/internas/bg-partido-colorado.jpg");
 }
 
@@ -184,40 +184,39 @@ body {
     background-image: url("../public/internas/candidatos/iafigliola.jpg");
 }
 
-.frente-amplio .parallelogram {
-    width: 400px;
-}
-
-.frente-amplio .candidate {
-    margin-left: -135px;
-}
-
-.party{
+.party {
     padding-top: 2rem;
 }
 
-.candidate-name {
+.party .candidate-name {
     padding-top: 1rem;
     margin-left: -40px;
     width: 100%;
 }
 
-.candidate-name .first-name{
+.candidate-name .first-name {
     font-size: 1.25rem;
 }
 
-.candidate-name .last-name{
+.party .candidate-name .last-name {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 2.25rem;
+}
+
+.frente-amplio .parallelogram {
+    width: 400px;
+}
+
+.party.frente-amplio .candidate {
+    margin-left: -135px;
 }
 
 .partido-colorado .parallelogram {
     width: 225px;
 }
 
-.partido-colorado .candidate,
-.partido-colorado .name-container {
+.party.partido-colorado .candidate {
     margin-left: -200px;
 }
 
@@ -225,12 +224,11 @@ body {
     width: 275px;
 }
 
-.partido-nacional .candidate,
-.partido-nacional .name-container {
+.party.partido-nacional .candidate {
     margin-left: -175px;
 }
 
-.percentage {
+.party .percentage {
     transform: skew(10deg);
     font-size: 3rem;
     font-weight: bold;
@@ -241,4 +239,45 @@ body {
     height: 175px;
     background-color: #000;
     /*background: linear-gradient(to bottom right, #7143FF, #FC5E0E);*/
+}
+
+.zocalo {
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+
+.zocalo.frente-amplio {
+    background-image: url("../public/internas/bg-zocalo-frente-amplio.jpg");
+}
+
+.zocalo.partido-nacional {
+    background-image: url("../public/internas/bg-partido-nacional.jpg");
+}
+
+.zocalo.partido-colorado {
+    background-image: url("../public/internas/bg-partido-colorado.jpg");
+}
+
+.zocalo .party-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2.25rem;
+}
+
+.zocalo .candidate {
+    height: 150px;
+    margin: 0;
+    background-position: center top;
+    background-size: 250px;
+    width: 125px;
+}
+
+.zocalo .candidate-name .last-name {
+    font-size: 2rem;
+}
+
+.zocalo .percentage{
+    font-size: 5rem;
+    line-height: 5rem;
 }

@@ -1,4 +1,4 @@
-import { FIXED_DECIMALS, PARTY, Party, grandTotalVoteCount, voteProgress } from "@/config/internas";
+import { FIXED_DECIMALS, PARTY, grandTotalVoteCount, voteProgress } from "@/config/internas";
 import type { Metadata, ResolvingMetadata } from "next";
 
 type CandidatesProps = {
@@ -17,7 +17,6 @@ export async function generateMetadata(
   };
 }
 
-
 const partialCount = Object.values(PARTY).reduce((previousValue, currentValue) => {
   const partyCount = currentValue.candidates.reduce((previousValue, currentValue) => previousValue + currentValue.voteCount, 0);
   return previousValue + partyCount;
@@ -27,6 +26,7 @@ export default function CandidatesPage({ params }: CandidatesProps) {
   const { candidates } = PARTY[params.party];
   const totalPartyCount = candidates.reduce((previousValue, currentValue) => previousValue + currentValue.voteCount, 0);
   return (
+    <body className={"bg-black"}>
     <main className={`party ${params.party} flex flex-row justify-evenly items-center min-h-screen`}>
       {candidates.map(({ key, voteCount, name, lastName }) =>
         <div key={key}>
@@ -59,5 +59,6 @@ export default function CandidatesPage({ params }: CandidatesProps) {
         </div>
       </div>
     </main>
+    </body>
   );
 }

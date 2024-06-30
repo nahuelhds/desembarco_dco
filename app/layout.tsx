@@ -47,7 +47,7 @@ export default function RootLayout({
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2186237898462075"
         crossOrigin="anonymous"
       />
-      <body>{children}</body>
+      {children}
     </html>
   );
 }
