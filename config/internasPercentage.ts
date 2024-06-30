@@ -59,38 +59,38 @@ const candidatesPC: CandidatePercentage[] = [
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    percentage: 0
+    percentage: 39
   },
-  {
-    key: "viera",
-    name: "Tabaré",
-    lastName: "Viera",
-    percentage: 0
-  },
-  {
-    key: "silva",
-    name: "Robert",
-    lastName: "Silva",
-    percentage: 0
-  },
-  {
-    key: "gurmendez",
-    name: "Gabriel",
-    lastName: "Gurméndez",
-    percentage: 0
-  },
-  {
-    key: "ache",
-    name: "Carolina",
-    lastName: "Ache",
-    percentage: 0
-  },
-  {
-    key: "zaida",
-    name: "Zaida",
-    lastName: "González",
-    percentage: 0
-  }
+  // {
+  //   key: "viera",
+  //   name: "Tabaré",
+  //   lastName: "Viera",
+  //   percentage: 0
+  // },
+  // {
+  //   key: "silva",
+  //   name: "Robert",
+  //   lastName: "Silva",
+  //   percentage: 0
+  // },
+  // {
+  //   key: "gurmendez",
+  //   name: "Gabriel",
+  //   lastName: "Gurméndez",
+  //   percentage: 0
+  // },
+  // {
+  //   key: "ache",
+  //   name: "Carolina",
+  //   lastName: "Ache",
+  //   percentage: 0
+  // },
+  // {
+  //   key: "zaida",
+  //   name: "Zaida",
+  //   lastName: "González",
+  //   percentage: 0
+  // }
 ].sort(sortByPercentage);
 
 export type Party = {
