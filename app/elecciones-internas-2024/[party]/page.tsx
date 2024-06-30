@@ -46,7 +46,8 @@ export default function CandidatesPage({ params }: CandidatesPageProps) {
         <div className={"text-center bg-black px-4 py-2 rounded-2xl text-2xl"}>
           <label className={"font-bold"}>Participación:</label>
           {" "}
-          <span>{(partialCount * 100 / grandTotalVoteCount).toFixed(2)}%</span>
+          <span>{(0).toFixed(2)}%</span>
+          {/*<span>{(partialCount * 100 / grandTotalVoteCount).toFixed(2)}%</span>*/}
         </div>
       </div>
     </main>
