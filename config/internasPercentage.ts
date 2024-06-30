@@ -26,32 +26,32 @@ const candidatesPN: CandidatePercentage[] = [
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    percentage: 0
+    percentage: 76.0
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    percentage: 0
+    percentage: 17.0
   },
-  {
-    key: "gandini",
-    name: "Jorge",
-    lastName: "Gandini",
-    percentage: 0
-  },
-  {
-    key: "iafigliola",
-    name: "Carlos",
-    lastName: "Iafigliola",
-    percentage: 0
-  },
-  {
-    key: "corbran",
-    name: "Roxana",
-    lastName: "Corbran",
-    percentage: 0
-  }
+  // {
+  //   key: "gandini",
+  //   name: "Jorge",
+  //   lastName: "Gandini",
+  //   percentage: 0
+  // },
+  // {
+  //   key: "iafigliola",
+  //   name: "Carlos",
+  //   lastName: "Iafigliola",
+  //   percentage: 0
+  // },
+  // {
+  //   key: "corbran",
+  //   name: "Roxana",
+  //   lastName: "Corbran",
+  //   percentage: 0
+  // }
 ].sort(sortByPercentage);
 
 const candidatesPC: CandidatePercentage[] = [
