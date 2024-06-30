@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { CandidatesPageProps } from "@/app/types";
-import { PARTY } from "@/config/internasVoteCount";
+import { PARTY } from "@/config/internasPercentage";
 import { FIXED_DECIMALS, grandTotalVoteCount, voteProgress } from "@/config/internasConfig";
 
 export async function generateMetadata({ params }: CandidatesPageProps): Promise<Metadata> {
@@ -10,23 +10,23 @@ export async function generateMetadata({ params }: CandidatesPageProps): Promise
 }
 
 const partialCount = Object.values(PARTY).reduce((previousValue, currentValue) => {
-  const partyCount = currentValue.candidates.reduce((previousValue, currentValue) => previousValue + currentValue.voteCount, 0);
+  const partyCount = currentValue.candidates.reduce((previousValue, currentValue) => previousValue + currentValue.percentage, 0);
   return previousValue + partyCount;
 }, 0);
 
 export default function CandidatesPage({ params }: CandidatesPageProps) {
   const { candidates } = PARTY[params.party];
-  const totalPartyCount = candidates.reduce((previousValue, currentValue) => previousValue + currentValue.voteCount, 0);
+  const totalPartyCount = candidates.reduce((previousValue, currentValue) => previousValue + currentValue.percentage, 0);
   return (
     <body className={"bg-black"}>
     <main className={`party ${params.party} flex flex-row justify-evenly items-center min-h-screen`}>
-      {candidates.map(({ key, voteCount, name, lastName }) =>
+      {candidates.map(({ key, percentage, name, lastName }) =>
         <div key={key}>
           <div className="parallelogram">
             <div className={`candidate ${key}`} />
             <div className={"absolute bottom-8 w-full percentage-container"}>
               <span
-                className={"percentage flex items-center justify-center"}>{(voteCount * 100 / totalPartyCount).toFixed(FIXED_DECIMALS)}%
+                className={"percentage flex items-center justify-center"}>{percentage.toFixed(FIXED_DECIMALS)}%
               </span>
             </div>
           </div>
@@ -43,9 +43,9 @@ export default function CandidatesPage({ params }: CandidatesPageProps) {
           <span>{voteProgress.toFixed(2)}%</span>
         </div>
       </div>
-      <div className={"absolute bottom-2 right-2 hidden"}>
+      <div className={"absolute bottom-2 right-2"}>
         <div className={"text-center bg-black px-4 py-2 rounded-2xl text-2xl"}>
-          <span className={"font-bold"}>Proyecciones de Consultora Nómade</span>
+          <span className={"font-bold"}>Usina de percepción ciudadana</span>
         </div>
       </div>
     </main>

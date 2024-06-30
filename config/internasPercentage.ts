@@ -5,19 +5,19 @@ const candidatesFA: CandidatePercentage[] = [
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    percentage: 20.5
+    percentage: 36.2
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    percentage: 21.32
+    percentage: 60.1
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    percentage: 5.3355
+    percentage: 3.7
   }
 ].sort(sortByPercentage);
 
