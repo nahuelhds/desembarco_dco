@@ -16,19 +16,19 @@ const candidatesFA: Candidate[] = [
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 0
+    voteCount: 100
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 0
+    voteCount: 100
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 0
+    voteCount: 100
   }
 ].sort(sortByVoteCount);
 
@@ -37,19 +37,19 @@ const candidatesPN: Candidate[] = [
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    voteCount: 0
+    voteCount: 100
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    voteCount: 0
+    voteCount: 100
   },
   {
     key: "gandini",
     name: "Jorge",
     lastName: "Gandini",
-    voteCount: 0
+    voteCount: 100
   },
   {
     key: "iafigliola",
@@ -61,7 +61,7 @@ const candidatesPN: Candidate[] = [
     key: "corbran",
     name: "Roxana",
     lastName: "Corbran",
-    voteCount: 0
+    voteCount: 100
   }
 ].sort(sortByVoteCount);
 
@@ -70,37 +70,37 @@ const candidatesPC: Candidate[] = [
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    voteCount: 0
+    voteCount: 100
   },
   {
     key: "viera",
     name: "Tabaré",
     lastName: "Viera",
-    voteCount: 0
+    voteCount: 100
   },
   {
     key: "silva",
     name: "Robert",
     lastName: "Silva",
-    voteCount: 0
+    voteCount: 100
   },
   {
     key: "gurmendez",
     name: "Gabriel",
     lastName: "Gurméndez",
-    voteCount: 0
+    voteCount: 100
   },
   {
     key: "ache",
     name: "Carolina",
     lastName: "Ache",
-    voteCount: 0
+    voteCount: 100
   },
   {
     key: "zaida",
     name: "Zaida",
     lastName: "González",
-    voteCount: 0
+    voteCount: 100
   }
 ].sort(sortByVoteCount);
 
