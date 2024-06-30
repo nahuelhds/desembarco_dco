@@ -1,112 +1,101 @@
-import { Candidate } from "@/app/types";
+import { CandidateVoteCount, CandidatePercentage } from "@/app/types";
 
-export const FIXED_DECIMALS = 1;
-export const ZOCALO_FIXED_DECIMALS = 0;
-
-export const ZOCALO_CANDIDATES_QTY = 3;
-
-// Info https://es.wikipedia.org/wiki/Elecciones_internas_de_Uruguay_de_2024
-export const grandTotalVoteCount = 2766323;
-
-// Mesas escrutadas
-export const voteProgress = 22;
-
-const candidatesFA: Candidate[] = [
+const candidatesFA: CandidatePercentage[] = [
   {
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 100
+    percentage: 20.5
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 100
+    percentage: 21.32
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 100
+    percentage: 5.3355
   }
-].sort(sortByVoteCount);
+].sort(sortByPercentage);
 
-const candidatesPN: Candidate[] = [
+const candidatesPN: CandidatePercentage[] = [
   {
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    voteCount: 100
+    percentage: 0
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    voteCount: 100
+    percentage: 0
   },
   {
     key: "gandini",
     name: "Jorge",
     lastName: "Gandini",
-    voteCount: 100
+    percentage: 0
   },
   {
     key: "iafigliola",
     name: "Carlos",
     lastName: "Iafigliola",
-    voteCount: 100
+    percentage: 0
   },
   {
     key: "corbran",
     name: "Roxana",
     lastName: "Corbran",
-    voteCount: 100
+    percentage: 0
   }
-].sort(sortByVoteCount);
+].sort(sortByPercentage);
 
-const candidatesPC: Candidate[] = [
+const candidatesPC: CandidatePercentage[] = [
   {
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    voteCount: 100
+    percentage: 0
   },
   {
     key: "viera",
     name: "Tabaré",
     lastName: "Viera",
-    voteCount: 100
+    percentage: 0
   },
   {
     key: "silva",
     name: "Robert",
     lastName: "Silva",
-    voteCount: 100
+    percentage: 0
   },
   {
     key: "gurmendez",
     name: "Gabriel",
     lastName: "Gurméndez",
-    voteCount: 100
+    percentage: 0
   },
   {
     key: "ache",
     name: "Carolina",
     lastName: "Ache",
-    voteCount: 100
+    percentage: 0
   },
   {
     key: "zaida",
     name: "Zaida",
     lastName: "González",
-    voteCount: 100
+    percentage: 0
   }
-].sort(sortByVoteCount);
+].sort(sortByPercentage);
 
 export type Party = {
   name: string;
-  candidates: Candidate[];
+  candidates: CandidatePercentage[];
 };
 
 export const PARTY: { [key: string]: Party } = {
@@ -124,10 +113,14 @@ export const PARTY: { [key: string]: Party } = {
   }
 };
 
-function sortByVoteCount(a: Candidate, b: Candidate) {
-  if (a.voteCount === b.voteCount) {
+function sortByPercentage(a: CandidatePercentage, b: CandidatePercentage) {
+  if (a.percentage === b.percentage) {
     return a.lastName > b.lastName ? 1 : -1;
   }
 
-  return a.voteCount < b.voteCount ? 1 : -1;
+  if (a.percentage && b.percentage){
+    return a.percentage < b.percentage ? 1 : -1;
+  }
+
+  return 0;
 }
