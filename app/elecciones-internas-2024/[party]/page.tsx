@@ -25,8 +25,11 @@ export default function CandidatesPage({ params }: CandidatesPageProps) {
             <div className={`candidate ${key}`} />
             <div className={"absolute bottom-8 w-full percentage-container"}>
               <span
-                className={"percentage flex items-center justify-center"}>{(voteCount * 100 / totalPartyCount).toFixed(FIXED_DECIMALS)}%
+                className={"percentage flex items-center justify-center"}>0%
               </span>
+              {/*<span*/}
+              {/*  className={"percentage flex items-center justify-center"}>{(voteCount * 100 / totalPartyCount).toFixed(FIXED_DECIMALS)}%*/}
+              {/*</span>*/}
             </div>
           </div>
           <div className={"candidate-name flex flex-col items-center justify-center"}>
