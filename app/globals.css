@@ -113,7 +113,6 @@ body {
 .party {
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
 }
 
 .party.frente-amplio {
@@ -243,7 +242,6 @@ body {
 
 .zocalo {
     background-position: center;
-    background-size: cover;
     height: 150px;
 }
 

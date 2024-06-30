@@ -4,3 +4,5 @@ export type Candidate = {
   voteCount: number;
   key: string;
 };
+
+export type CandidatesPageProps = { params: { party: string, slice: number } }

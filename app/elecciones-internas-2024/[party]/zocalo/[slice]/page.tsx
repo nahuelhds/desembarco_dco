@@ -1,20 +1,15 @@
 import { PARTY, ZOCALO_FIXED_DECIMALS, ZOCALO_CANDIDATES_QTY } from "@/config/internas";
 import type { Metadata } from "next";
+import { CandidatesPageProps } from "@/app/types";
 
-type CandidatesProps = {
-  params: { party: string, slice: number }
-  searchParams: { [key: string]: string | string[] | undefined }
-}
 
-export async function generateMetadata({ params }: CandidatesProps): Promise<Metadata> {
-  const { name } = PARTY[params.party];
-  // read route params
+export async function generateMetadata({ params }: CandidatesPageProps): Promise<Metadata> {
   return {
-    title: `${name} - Zócalo Resultados Elecciones Internas 2024 | Bunkerland - Miedo al éxito`
+    title: `${PARTY[params.party].name} - Zócalo Resultados Elecciones Internas 2024 | Bunkerland - Miedo al éxito`
   };
 }
 
-export default function CandidatesPage({ params }: CandidatesProps) {
+export default function CandidatesPage({ params }: CandidatesPageProps) {
   const { candidates } = PARTY[params.party];
   const sliceStart = params.slice * ZOCALO_CANDIDATES_QTY;
   const sliceEnd = (params.slice + 1) * ZOCALO_CANDIDATES_QTY;

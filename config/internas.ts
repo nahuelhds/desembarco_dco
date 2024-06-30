@@ -1,7 +1,7 @@
 import { Candidate } from "@/app/types";
 
 export const FIXED_DECIMALS = 1;
-export const ZOCALO_FIXED_DECIMALS = 1;
+export const ZOCALO_FIXED_DECIMALS = 0;
 
 export const ZOCALO_CANDIDATES_QTY = 3;
 

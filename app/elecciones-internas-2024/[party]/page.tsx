@@ -1,19 +1,10 @@
 import { FIXED_DECIMALS, PARTY, grandTotalVoteCount, voteProgress } from "@/config/internas";
-import type { Metadata, ResolvingMetadata } from "next";
+import type { Metadata } from "next";
+import { CandidatesPageProps } from "@/app/types";
 
-type CandidatesProps = {
-  params: { party: string }
-  searchParams: { [key: string]: string | string[] | undefined }
-}
-
-export async function generateMetadata(
-  { params, searchParams }: CandidatesProps,
-  parent: ResolvingMetadata
-): Promise<Metadata> {
-  const { name } = PARTY[params.party];
-  // read route params
+export async function generateMetadata({ params }: CandidatesPageProps): Promise<Metadata> {
   return {
-    title: `${name} - Resultados Elecciones Internas 2024 | Bunkerland - Miedo al éxito`
+    title: `${PARTY[params.party].name} - Resultados Elecciones Internas 2024 | Bunkerland - Miedo al éxito`
   };
 }
 
@@ -22,7 +13,7 @@ const partialCount = Object.values(PARTY).reduce((previousValue, currentValue) =
   return previousValue + partyCount;
 }, 0);
 
-export default function CandidatesPage({ params }: CandidatesProps) {
+export default function CandidatesPage({ params }: CandidatesPageProps) {
   const { candidates } = PARTY[params.party];
   const totalPartyCount = candidates.reduce((previousValue, currentValue) => previousValue + currentValue.voteCount, 0);
   return (
