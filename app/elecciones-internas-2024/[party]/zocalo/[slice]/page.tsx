@@ -1,15 +1,12 @@
 import { PARTY, ZOCALO_FIXED_DECIMALS, ZOCALO_CANDIDATES_QTY } from "@/config/internas";
-import type { Metadata, ResolvingMetadata } from "next";
+import type { Metadata } from "next";
 
 type CandidatesProps = {
   params: { party: string, slice: number }
   searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export async function generateMetadata(
-  { params, searchParams }: CandidatesProps,
-  parent: ResolvingMetadata
-): Promise<Metadata> {
+export async function generateMetadata({ params }: CandidatesProps): Promise<Metadata> {
   const { name } = PARTY[params.party];
   // read route params
   return {
@@ -17,15 +14,10 @@ export async function generateMetadata(
   };
 }
 
-const partialCount = Object.values(PARTY).reduce((previousValue, currentValue) => {
-  const partyCount = currentValue.candidates.reduce((previousValue, currentValue) => previousValue + currentValue.voteCount, 0);
-  return previousValue + partyCount;
-}, 0);
-
 export default function CandidatesPage({ params }: CandidatesProps) {
   const { candidates } = PARTY[params.party];
   const sliceStart = params.slice * ZOCALO_CANDIDATES_QTY;
-  const sliceEnd = (params.slice+1) * ZOCALO_CANDIDATES_QTY;
+  const sliceEnd = (params.slice + 1) * ZOCALO_CANDIDATES_QTY;
   const totalPartyCount = candidates.reduce((previousValue, currentValue) => previousValue + currentValue.voteCount, 0);
   return (
     <body className={"bg-black"}>
