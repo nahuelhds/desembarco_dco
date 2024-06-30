@@ -24,9 +24,8 @@ export default function CandidatesPage({ params }: CandidatesPageProps) {
             <div className={`candidate ${key}`} />
             <div className={"candidate-name flex flex-col justify-around px-8"}>
               <span className={"last-name uppercase"}>{lastName}</span>
-              <span>{(0).toFixed(2)}%</span>
-              {/*<strong*/}
-              {/*  className={"percentage"}>{(voteCount * 100 / totalPartyCount).toFixed(ZOCALO_FIXED_DECIMALS)}%</strong>*/}
+              <strong
+                className={"percentage"}>{(voteCount * 100 / totalPartyCount).toFixed(ZOCALO_FIXED_DECIMALS)}%</strong>
             </div>
           </div>
         )}
