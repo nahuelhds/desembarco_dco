@@ -43,7 +43,7 @@ export default function CandidatesPage({ params }: CandidatesPageProps) {
           <span>{voteProgress.toFixed(2)}%</span>
         </div>
       </div>
-      <div className={"absolute bottom-2 right-2"}>
+      <div className={"absolute bottom-2 right-2 hidden"}>
         <div className={"text-center bg-black px-4 py-2 rounded-2xl text-2xl"}>
           <span className={"font-bold"}>Proyecciones de Consultora Nómade</span>
         </div>
