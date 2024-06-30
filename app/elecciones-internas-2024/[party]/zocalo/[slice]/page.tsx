@@ -1,11 +1,4 @@
-import {
-  FIXED_DECIMALS,
-  PARTY,
-  grandTotalVoteCount,
-  voteProgress,
-  ZOCALO_FIXED_DECIMALS,
-  ZOCALO_CANDIDATES_QTY
-} from "@/config/internas";
+import { PARTY, ZOCALO_FIXED_DECIMALS, ZOCALO_CANDIDATES_QTY } from "@/config/internas";
 import type { Metadata, ResolvingMetadata } from "next";
 
 type CandidatesProps = {
