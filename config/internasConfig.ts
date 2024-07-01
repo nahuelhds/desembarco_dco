@@ -10,4 +10,4 @@ export const grandTotalVoteCount = 2766323;
 
 // Mesas escrutadas
 export const totalVotePercentage = 35;
-export const voteProgress = 1.44;
+export const voteProgress = 3.01;
