@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { CandidatesPageProps } from "@/app/types";
-import { PARTY } from "@/config/internasVoteCount";
-import { ZOCALO_CANDIDATES_QTY, ZOCALO_FIXED_DECIMALS, voteProgress } from "@/config/internasConfig";
+import { PARTY, voteProgress } from "@/config/internasVoteCount";
+import { ZOCALO_CANDIDATES_QTY, ZOCALO_FIXED_DECIMALS } from "@/config/internasConfig";
 
 export async function generateMetadata({ params }: CandidatesPageProps): Promise<Metadata> {
   return {

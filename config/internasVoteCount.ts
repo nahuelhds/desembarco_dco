@@ -1,23 +1,24 @@
 import { CandidateVoteCount, CandidatePercentage } from "@/app/types";
+export const voteProgress = 17.56;
 
 const candidatesFA: CandidateVoteCount[] = [
   {
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 10988
+    voteCount: 16843
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 808
+    voteCount: 1169
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 19032
+    voteCount: 29191
   }
 ].sort(sortByVoteCount);
 
@@ -26,31 +27,31 @@ const candidatesPN: CandidateVoteCount[] = [
     key: "corbran",
     name: "Roxana",
     lastName: "Corbran",
-    voteCount: 36
+    voteCount: 64
   },
   {
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    voteCount: 24696
+    voteCount: 35231
   },
   {
     key: "gandini",
     name: "Jorge",
     lastName: "Gandini",
-    voteCount: 1438
+    voteCount: 2068
   },
   {
     key: "iafigliola",
     name: "Carlos",
     lastName: "Iafigliola",
-    voteCount: 73
+    voteCount: 108
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    voteCount: 6069
+    voteCount: 8723
   }
 ].sort(sortByVoteCount);
 
@@ -59,37 +60,37 @@ const candidatesPC: CandidateVoteCount[] = [
     key: "ache",
     name: "Carolina",
     lastName: "Ache",
-    voteCount: 88
+    voteCount: 125
   },
   {
     key: "zaida",
     name: "Zaida",
     lastName: "González",
-    voteCount: 9
+    voteCount: 14
   },
   {
     key: "gurmendez",
     name: "Gabriel",
     lastName: "Gurméndez",
-    voteCount: 1417
+    voteCount: 2109
   },
   {
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    voteCount: 3384
+    voteCount: 4983
   },
   {
     key: "silva",
     name: "Robert",
     lastName: "Silva",
-    voteCount: 2035
+    voteCount: 2935
   },
   {
     key: "viera",
     name: "Tabaré",
     lastName: "Viera",
-    voteCount: 2073
+    voteCount: 2928
   }
 ].sort(sortByVoteCount);
 
