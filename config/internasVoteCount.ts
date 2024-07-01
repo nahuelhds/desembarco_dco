@@ -1,25 +1,25 @@
 import { CandidateVoteCount } from "@/app/types";
 
-export const voteProgress = 44.11;
+export const voteProgress = 51.05;
 
 const candidatesFA: CandidateVoteCount[] = [
   {
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 55309
+    voteCount: 66661
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 3812
+    voteCount: 4641
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 93594
+    voteCount: 111648
   }
 ].sort(sortByVoteCount);
 
@@ -28,31 +28,31 @@ const candidatesPN: CandidateVoteCount[] = [
     key: "corbran",
     name: "Roxana",
     lastName: "Corbran",
-    voteCount: 213
+    voteCount: 269
   },
   {
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    voteCount: 98054
+    voteCount: 114253
   },
   {
     key: "gandini",
     name: "Jorge",
     lastName: "Gandini",
-    voteCount: 6308
+    voteCount: 7477
   },
   {
     key: "iafigliola",
     name: "Carlos",
     lastName: "Iafigliola",
-    voteCount: 309
+    voteCount: 382
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    voteCount: 24802
+    voteCount: 28964
   }
 ].sort(sortByVoteCount);
 
@@ -61,37 +61,37 @@ const candidatesPC: CandidateVoteCount[] = [
     key: "ache",
     name: "Carolina",
     lastName: "Ache",
-    voteCount: 368
+    voteCount: 448
   },
   {
     key: "zaida",
     name: "Zaida",
     lastName: "González",
-    voteCount: 53
+    voteCount: 60
   },
   {
     key: "gurmendez",
     name: "Gabriel",
     lastName: "Gurméndez",
-    voteCount: 5840
+    voteCount: 7081
   },
   {
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    voteCount: 14839
+    voteCount: 17643
   },
   {
     key: "silva",
     name: "Robert",
     lastName: "Silva",
-    voteCount: 8489
+    voteCount: 9937
   },
   {
     key: "viera",
     name: "Tabaré",
     lastName: "Viera",
-    voteCount: 6811
+    voteCount: 8163
   }
 ].sort(sortByVoteCount);
 
