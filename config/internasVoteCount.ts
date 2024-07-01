@@ -59,37 +59,37 @@ const candidatesPC: CandidateVoteCount[] = [
     key: "ache",
     name: "Carolina",
     lastName: "Ache",
-    voteCount: 21
+    voteCount: 35
   },
   {
     key: "zaida",
     name: "Zaida",
     lastName: "González",
-    voteCount: 1
+    voteCount: 4
   },
   {
     key: "gurmendez",
     name: "Gabriel",
     lastName: "Gurméndez",
-    voteCount: 396
+    voteCount: 635
   },
   {
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    voteCount: 848
+    voteCount: 1389
   },
   {
     key: "silva",
     name: "Robert",
     lastName: "Silva",
-    voteCount: 530
+    voteCount: 836
   },
   {
     key: "viera",
     name: "Tabaré",
     lastName: "Viera",
-    voteCount: 630
+    voteCount: 845
   }
 ].sort(sortByVoteCount);
 
