@@ -5,19 +5,19 @@ const candidatesFA: CandidateVoteCount[] = [
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 6910
+    voteCount: 10988
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 523
+    voteCount: 808
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 12078
+    voteCount: 19032
   }
 ].sort(sortByVoteCount);
 
@@ -26,31 +26,31 @@ const candidatesPN: CandidateVoteCount[] = [
     key: "corbran",
     name: "Roxana",
     lastName: "Corbran",
-    voteCount: 21
+    voteCount: 36
   },
   {
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    voteCount: 16645
+    voteCount: 24696
   },
   {
     key: "gandini",
     name: "Jorge",
     lastName: "Gandini",
-    voteCount: 998
+    voteCount: 1438
   },
   {
     key: "iafigliola",
     name: "Carlos",
     lastName: "Iafigliola",
-    voteCount: 58
+    voteCount: 73
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    voteCount: 4209
+    voteCount: 6069
   }
 ].sort(sortByVoteCount);
 
@@ -59,37 +59,37 @@ const candidatesPC: CandidateVoteCount[] = [
     key: "ache",
     name: "Carolina",
     lastName: "Ache",
-    voteCount: 66
+    voteCount: 88
   },
   {
     key: "zaida",
     name: "Zaida",
     lastName: "González",
-    voteCount: 7
+    voteCount: 9
   },
   {
     key: "gurmendez",
     name: "Gabriel",
     lastName: "Gurméndez",
-    voteCount: 979
+    voteCount: 1417
   },
   {
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    voteCount: 2249
+    voteCount: 3384
   },
   {
     key: "silva",
     name: "Robert",
     lastName: "Silva",
-    voteCount: 1334
+    voteCount: 2035
   },
   {
     key: "viera",
     name: "Tabaré",
     lastName: "Viera",
-    voteCount: 1376
+    voteCount: 2073
   }
 ].sort(sortByVoteCount);
 
