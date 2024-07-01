@@ -1,6 +1,6 @@
 import { CandidateVoteCount } from "@/app/types";
 
-export const voteProgress = 17.56;
+export const voteProgress = 23.53;
 
 const candidatesFA: CandidateVoteCount[] = [
   {
