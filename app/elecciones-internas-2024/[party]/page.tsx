@@ -36,14 +36,14 @@ export default function CandidatesPage({ params }: CandidatesPageProps) {
           </div>
         </div>
       )}
-      <div className={"absolute bottom-2 left-80"}>
+      <div className={"absolute bottom-2 left-48"}>
         <div className={"text-center bg-black px-4 py-2 rounded-2xl text-2xl"}>
           <label className={"font-bold"}>Participación total:</label>
           {" "}
           <span>{totalVotePercentage.toFixed(2)}%</span>
         </div>
       </div>
-      <div className={"absolute bottom-2 right-80"}>
+      <div className={"absolute bottom-2 right-48"}>
         <div className={"text-center bg-black px-4 py-2 rounded-2xl text-2xl"}>
           <label className={"font-bold"}>Mesas escrutadas:</label>
           {" "}
