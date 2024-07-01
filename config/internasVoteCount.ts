@@ -1,25 +1,25 @@
 import { CandidateVoteCount } from "@/app/types";
 
-export const voteProgress = 68.14;
+export const voteProgress = 72.83;
 
 const candidatesFA: CandidateVoteCount[] = [
   {
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 95949
+    voteCount: 104635
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 7058
+    voteCount: 7634
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 156927
+    voteCount: 169648
   }
 ].sort(sortByVoteCount);
 
@@ -28,31 +28,31 @@ const candidatesPN: CandidateVoteCount[] = [
     key: "corbran",
     name: "Roxana",
     lastName: "Corbran",
-    voteCount: 382
+    voteCount: 404
   },
   {
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    voteCount: 155367
+    voteCount: 167302
   },
   {
     key: "gandini",
     name: "Jorge",
     lastName: "Gandini",
-    voteCount: 10889
+    voteCount: 11799
   },
   {
     key: "iafigliola",
     name: "Carlos",
     lastName: "Iafigliola",
-    voteCount: 511
+    voteCount: 545
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    voteCount: 40238
+    voteCount: 43149
   }
 ].sort(sortByVoteCount);
 
@@ -61,37 +61,37 @@ const candidatesPC: CandidateVoteCount[] = [
     key: "ache",
     name: "Carolina",
     lastName: "Ache",
-    voteCount: 685
+    voteCount: 739
   },
   {
     key: "zaida",
     name: "Zaida",
     lastName: "González",
-    voteCount: 100
+    voteCount: 110
   },
   {
     key: "gurmendez",
     name: "Gabriel",
     lastName: "Gurméndez",
-    voteCount: 10429
+    voteCount: 11387
   },
   {
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    voteCount: 24854
+    voteCount: 26765
   },
   {
     key: "silva",
     name: "Robert",
     lastName: "Silva",
-    voteCount: 13944
+    voteCount: 15007
   },
   {
     key: "viera",
     name: "Tabaré",
     lastName: "Viera",
-    voteCount: 11047
+    voteCount: 11802
   }
 ].sort(sortByVoteCount);
 
