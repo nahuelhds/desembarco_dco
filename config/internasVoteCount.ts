@@ -1,25 +1,25 @@
 import { CandidateVoteCount } from "@/app/types";
 
-export const voteProgress = 30.34;
+export const voteProgress = 37.62;
 
 const candidatesFA: CandidateVoteCount[] = [
   {
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 33982
+    voteCount: 44952
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 2387
+    voteCount: 3135
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 58035
+    voteCount: 76588
   }
 ].sort(sortByVoteCount);
 
@@ -28,31 +28,31 @@ const candidatesPN: CandidateVoteCount[] = [
     key: "corbran",
     name: "Roxana",
     lastName: "Corbran",
-    voteCount: 133
+    voteCount: 165
   },
   {
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    voteCount: 65946
+    voteCount: 82950
   },
   {
     key: "gandini",
     name: "Jorge",
     lastName: "Gandini",
-    voteCount: 3883
+    voteCount: 5100
   },
   {
     key: "iafigliola",
     name: "Carlos",
     lastName: "Iafigliola",
-    voteCount: 200
+    voteCount: 251
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    voteCount: 16342
+    voteCount: 20726
   }
 ].sort(sortByVoteCount);
 
@@ -61,37 +61,37 @@ const candidatesPC: CandidateVoteCount[] = [
     key: "ache",
     name: "Carolina",
     lastName: "Ache",
-    voteCount: 241
+    voteCount: 302
   },
   {
     key: "zaida",
     name: "Zaida",
     lastName: "González",
-    voteCount: 34
+    voteCount: 44
   },
   {
     key: "gurmendez",
     name: "Gabriel",
     lastName: "Gurméndez",
-    voteCount: 3812
+    voteCount: 4866
   },
   {
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    voteCount: 9529
+    voteCount: 12274
   },
   {
     key: "silva",
     name: "Robert",
     lastName: "Silva",
-    voteCount: 5497
+    voteCount: 7057
   },
   {
     key: "viera",
     name: "Tabaré",
     lastName: "Viera",
-    voteCount: 4955
+    voteCount: 5900
   }
 ].sort(sortByVoteCount);
 
