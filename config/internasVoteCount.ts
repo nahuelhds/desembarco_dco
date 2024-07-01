@@ -1,25 +1,25 @@
 import { CandidateVoteCount } from "@/app/types";
 
-export const voteProgress = 62.66;
+export const voteProgress = 68.14;
 
 const candidatesFA: CandidateVoteCount[] = [
   {
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 85865
+    voteCount: 95949
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 6264
+    voteCount: 7058
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 141680
+    voteCount: 156927
   }
 ].sort(sortByVoteCount);
 
@@ -28,31 +28,31 @@ const candidatesPN: CandidateVoteCount[] = [
     key: "corbran",
     name: "Roxana",
     lastName: "Corbran",
-    voteCount: 345
+    voteCount: 382
   },
   {
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    voteCount: 142917
+    voteCount: 155367
   },
   {
     key: "gandini",
     name: "Jorge",
     lastName: "Gandini",
-    voteCount: 9714
+    voteCount: 10889
   },
   {
     key: "iafigliola",
     name: "Carlos",
     lastName: "Iafigliola",
-    voteCount: 465
+    voteCount: 511
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    voteCount: 36573
+    voteCount: 40238
   }
 ].sort(sortByVoteCount);
 
@@ -61,37 +61,37 @@ const candidatesPC: CandidateVoteCount[] = [
     key: "ache",
     name: "Carolina",
     lastName: "Ache",
-    voteCount: 610
+    voteCount: 685
   },
   {
     key: "zaida",
     name: "Zaida",
     lastName: "González",
-    voteCount: 82
+    voteCount: 100
   },
   {
     key: "gurmendez",
     name: "Gabriel",
     lastName: "Gurméndez",
-    voteCount: 9264
+    voteCount: 10429
   },
   {
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    voteCount: 22411
+    voteCount: 24854
   },
   {
     key: "silva",
     name: "Robert",
     lastName: "Silva",
-    voteCount: 12534
+    voteCount: 13944
   },
   {
     key: "viera",
     name: "Tabaré",
     lastName: "Viera",
-    voteCount: 10209
+    voteCount: 11047
   }
 ].sort(sortByVoteCount);
 
