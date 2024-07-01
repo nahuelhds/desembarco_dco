@@ -26,31 +26,31 @@ const candidatesPN: CandidateVoteCount[] = [
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    voteCount: 100
+    voteCount: 2375
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    voteCount: 100
+    voteCount: 545
   },
   {
     key: "gandini",
     name: "Jorge",
     lastName: "Gandini",
-    voteCount: 100
+    voteCount: 113
   },
   {
     key: "iafigliola",
     name: "Carlos",
     lastName: "Iafigliola",
-    voteCount: 100
+    voteCount: 2
   },
   {
     key: "corbran",
     name: "Roxana",
     lastName: "Corbran",
-    voteCount: 100
+    voteCount: 2
   }
 ].sort(sortByVoteCount);
 
