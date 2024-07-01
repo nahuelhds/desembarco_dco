@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { CandidatesPageProps } from "@/app/types";
 import { PARTY } from "@/config/internasVoteCount";
-import { ZOCALO_CANDIDATES_QTY, ZOCALO_FIXED_DECIMALS } from "@/config/internasConfig";
+import { ZOCALO_CANDIDATES_QTY, ZOCALO_FIXED_DECIMALS, voteProgress } from "@/config/internasConfig";
 
 export async function generateMetadata({ params }: CandidatesPageProps): Promise<Metadata> {
   return {
@@ -17,7 +17,10 @@ export default function CandidatesPage({ params }: CandidatesPageProps) {
   return (
     <body className={"bg-black"}>
     <main className={`zocalo ${params.party} flex flex-row items-center bg-black`}>
-      <div className={"party-name flex-grow-0 p-4"}>{PARTY[params.party].name}</div>
+      <div className={"flex-grow-0 p-4 flex flex-col"}>
+        <span className={"party-name"}>{PARTY[params.party].name}</span>
+        <span className={"text-2xl"}>Mesas escrutadas: {voteProgress.toFixed(2)}%</span>
+      </div>
       <div className={"flex-grow flex flex-row justify-around"}>
         {candidates.slice(sliceStart, sliceEnd).map(({ key, voteCount, name, lastName }) =>
           <div key={key} className={"flex flex-row justify-center items-center"}>
