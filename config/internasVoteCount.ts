@@ -1,25 +1,25 @@
 import { CandidateVoteCount } from "@/app/types";
 
-export const voteProgress = 37.62;
+export const voteProgress = 44.11;
 
 const candidatesFA: CandidateVoteCount[] = [
   {
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 44952
+    voteCount: 55309
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 3135
+    voteCount: 3812
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 76588
+    voteCount: 93594
   }
 ].sort(sortByVoteCount);
 
@@ -28,31 +28,31 @@ const candidatesPN: CandidateVoteCount[] = [
     key: "corbran",
     name: "Roxana",
     lastName: "Corbran",
-    voteCount: 165
+    voteCount: 213
   },
   {
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    voteCount: 82950
+    voteCount: 98054
   },
   {
     key: "gandini",
     name: "Jorge",
     lastName: "Gandini",
-    voteCount: 5100
+    voteCount: 6308
   },
   {
     key: "iafigliola",
     name: "Carlos",
     lastName: "Iafigliola",
-    voteCount: 251
+    voteCount: 309
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    voteCount: 20726
+    voteCount: 24802
   }
 ].sort(sortByVoteCount);
 
@@ -61,37 +61,37 @@ const candidatesPC: CandidateVoteCount[] = [
     key: "ache",
     name: "Carolina",
     lastName: "Ache",
-    voteCount: 302
+    voteCount: 368
   },
   {
     key: "zaida",
     name: "Zaida",
     lastName: "González",
-    voteCount: 44
+    voteCount: 53
   },
   {
     key: "gurmendez",
     name: "Gabriel",
     lastName: "Gurméndez",
-    voteCount: 4866
+    voteCount: 5840
   },
   {
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    voteCount: 12274
+    voteCount: 14839
   },
   {
     key: "silva",
     name: "Robert",
     lastName: "Silva",
-    voteCount: 7057
+    voteCount: 8489
   },
   {
     key: "viera",
     name: "Tabaré",
     lastName: "Viera",
-    voteCount: 5900
+    voteCount: 6811
   }
 ].sort(sortByVoteCount);
 
