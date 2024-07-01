@@ -1,25 +1,25 @@
 import { CandidateVoteCount } from "@/app/types";
 
-export const voteProgress = 23.53;
+export const voteProgress = 30.34;
 
 const candidatesFA: CandidateVoteCount[] = [
   {
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 24615
+    voteCount: 33982
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 1752
+    voteCount: 2387
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 42307
+    voteCount: 58035
   }
 ].sort(sortByVoteCount);
 
@@ -28,31 +28,31 @@ const candidatesPN: CandidateVoteCount[] = [
     key: "corbran",
     name: "Roxana",
     lastName: "Corbran",
-    voteCount: 100
+    voteCount: 133
   },
   {
     key: "delgado",
     name: "Álvaro",
     lastName: "Delgado",
-    voteCount: 49997
+    voteCount: 65946
   },
   {
     key: "gandini",
     name: "Jorge",
     lastName: "Gandini",
-    voteCount: 2905
+    voteCount: 3883
   },
   {
     key: "iafigliola",
     name: "Carlos",
     lastName: "Iafigliola",
-    voteCount: 147
+    voteCount: 200
   },
   {
     key: "raffo",
     name: "Laura",
     lastName: "Raffo",
-    voteCount: 12332
+    voteCount: 16342
   }
 ].sort(sortByVoteCount);
 
@@ -61,37 +61,37 @@ const candidatesPC: CandidateVoteCount[] = [
     key: "ache",
     name: "Carolina",
     lastName: "Ache",
-    voteCount: 178
+    voteCount: 241
   },
   {
     key: "zaida",
     name: "Zaida",
     lastName: "González",
-    voteCount: 20
+    voteCount: 34
   },
   {
     key: "gurmendez",
     name: "Gabriel",
     lastName: "Gurméndez",
-    voteCount: 2855
+    voteCount: 3812
   },
   {
     key: "ojeda",
     name: "Andrés",
     lastName: "Ojeda",
-    voteCount: 7134
+    voteCount: 9529
   },
   {
     key: "silva",
     name: "Robert",
     lastName: "Silva",
-    voteCount: 4152
+    voteCount: 5497
   },
   {
     key: "viera",
     name: "Tabaré",
     lastName: "Viera",
-    voteCount: 3733
+    voteCount: 4955
   }
 ].sort(sortByVoteCount);
 
