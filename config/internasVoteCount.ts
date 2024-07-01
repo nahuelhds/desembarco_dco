@@ -5,19 +5,19 @@ const candidatesFA: CandidateVoteCount[] = [
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 260
-  },
-  {
-    key: "orsi",
-    name: "Yamandú",
-    lastName: "Orsi",
-    voteCount: 449
+    voteCount: 1050
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 36
+    voteCount: 100
+  },
+  {
+    key: "orsi",
+    name: "Yamandú",
+    lastName: "Orsi",
+    voteCount: 1914
   }
 ].sort(sortByVoteCount);
 
