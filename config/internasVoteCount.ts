@@ -5,22 +5,19 @@ const candidatesFA: CandidateVoteCount[] = [
     key: "cosse",
     name: "Carolina",
     lastName: "Cosse",
-    voteCount: 100,
-    percentage: 20.5
+    voteCount: 260
   },
   {
     key: "orsi",
     name: "Yamandú",
     lastName: "Orsi",
-    voteCount: 100,
-    percentage: 21.32
+    voteCount: 449
   },
   {
     key: "lima",
     name: "Andrés",
     lastName: "Lima",
-    voteCount: 100,
-    percentage: 5.3355
+    voteCount: 36
   }
 ].sort(sortByVoteCount);
 
@@ -121,7 +118,7 @@ function sortByVoteCount(a: CandidateVoteCount, b: CandidateVoteCount) {
     return a.lastName > b.lastName ? 1 : -1;
   }
 
-  if (a.voteCount && b.voteCount){
+  if (a.voteCount && b.voteCount) {
     return a.voteCount < b.voteCount ? 1 : -1;
   }
 
