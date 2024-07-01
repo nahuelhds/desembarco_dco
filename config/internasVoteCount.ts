@@ -1,4 +1,5 @@
-import { CandidateVoteCount, CandidatePercentage } from "@/app/types";
+import { CandidateVoteCount } from "@/app/types";
+
 export const voteProgress = 17.56;
 
 const candidatesFA: CandidateVoteCount[] = [
