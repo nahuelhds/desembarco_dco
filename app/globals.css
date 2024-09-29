@@ -8,7 +8,7 @@
     --color-primary: #ec7c34;
     --color-secondary: #7e55a3;
     --font-color: var(--color-white);
-    --background-color-primary: var(--color-primary);
+    --background-color-primary: var(--color-secondary);
 }
 
 body {
