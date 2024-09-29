@@ -5,20 +5,20 @@ import { keywords } from "@/config/metadata";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Miedo al éxito",
-  description: "⚡️Lo relevante",
+  title: "Desembarco (DCO)",
+  description: "⚒️ Estamos mutando...",
   openGraph: {
-    title: "Miedo al éxito",
-    description: "⚡️Lo relevante",
+    title: "Desembarco (DCO)",
+    description: "⚒️ Estamos mutando...",
     images: ["/img/metadata-logo.jpg"],
   },
   twitter: {
-    title: "Miedo al éxito",
-    description: "⚡️Lo relevante",
+    title: "Desembarco (DCO)",
+    description: "⚒️ Estamos mutando...",
     images: ["/img/metadata-logo.jpg"],
   },
   appleWebApp: {
-    title: "Miedo al éxito",
+    title: "Desembarco (DCO)",
     startupImage: ["/img/metadata-logo.jpg"],
   },
   keywords,

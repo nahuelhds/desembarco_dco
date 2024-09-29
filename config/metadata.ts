@@ -1,6 +1,6 @@
 export const keywords = [
-  "miedo al éxito",
-  "Lo relevante",
+  "desembarco",
+  "transformando el ecosistema digital",
   "uruguay",
   "uruguaya",
   "uruguayo",

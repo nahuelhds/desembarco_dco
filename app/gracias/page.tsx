@@ -10,11 +10,11 @@ export default function ThanksPage() {
           <Image
             className="logo h-auto w-52"
             src={logo}
-            alt="Miedo al éxito"
+            alt="Desembarco (DCO)"
             priority
           />
           <h1 aria-hidden={true} className={"hidden"}>
-            Miedo al éxito
+            Desembarco (DCO)
           </h1>
           <h2
             className={`${fontZuume.className} mb-8 mt-16 text-4xl md:text-7xl`}
