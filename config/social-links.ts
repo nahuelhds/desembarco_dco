@@ -45,7 +45,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "X",
     icon: XIcon,
-    link: "https://twitter.com/miedoalexito_uy",
+    link: "https://twitter.com/desembarco_tv",
   },
   // {
   //   name: "Threads",
