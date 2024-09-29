@@ -17,7 +17,7 @@ body {
     background: radial-gradient(
             var(--color-primary),
             var(--color-secondary)
-    ) var(--color-primary);
+    ) var(--color-secondary);
 }
 
 @media screen(sm) {
