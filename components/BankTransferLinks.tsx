@@ -26,7 +26,7 @@ function PaymentLink({ name, link }: PaymentLink) {
   return (
     <a
       href={link}
-      className="inline-flex w-full items-center justify-center rounded-lg bg-violet-700 p-2 font-zuume text-xl text-violet-100 shadow-sm ring-1 ring-inset ring-violet-950 first:mt-0 last:mb-0 hover:bg-violet-700"
+      className="inline-flex w-full items-center justify-center rounded-lg bg-transparent p-2 font-zuume text-xl text-violet-100 shadow-sm ring-1 ring-inset ring-violet-950 first:mt-0 last:mb-0 hover:bg-orange-700"
     >
       <SiWhatsapp
         className="-ml-1 mr-1 h-8 w-8 text-violet-100"
