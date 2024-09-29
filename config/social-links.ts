@@ -20,7 +20,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "YouTube",
     icon: YouTubeIcon,
-    link: "https://www.youtube.com/@miedoalexito_uy",
+    link: "https://www.youtube.com/@desembarco_tv",
   },
   {
     name: "Twitch",
