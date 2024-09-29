@@ -25,7 +25,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "Twitch",
     icon: TwitchIcon,
-    link: "https://www.twitch.tv/miedoalexito_uy",
+    link: "https://www.twitch.tv/desembarco_tv",
   },
   {
     name: "Spotify",
