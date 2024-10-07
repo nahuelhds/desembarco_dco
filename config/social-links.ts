@@ -20,7 +20,7 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "YouTube",
     icon: YouTubeIcon,
-    link: "https://www.youtube.com/@desembarco_tv",
+    link: "https://www.youtube.com/@desembarco_dco",
   },
   {
     name: "Twitch",
@@ -35,17 +35,17 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "TikTok",
     icon: TikTokIcon,
-    link: "https://www.tiktok.com/@miedoalexito_uy",
+    link: "https://www.tiktok.com/@desembarco_dco",
   },
   {
     name: "Instagram",
     icon: InstagramIcon,
-    link: "https://instagram.com/miedoalexito_uy",
+    link: "https://instagram.com/desembarco_dco",
   },
   {
     name: "X",
     icon: XIcon,
-    link: "https://twitter.com/desembarco_tv",
+    link: "https://twitter.com/desembarco_dco",
   },
   // {
   //   name: "Threads",
