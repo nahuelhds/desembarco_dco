@@ -50,11 +50,11 @@ export const SOCIAL_LINKS: SocialLink[] = [
   // {
   //   name: "Threads",
   //   icon: ThreadsIcon,
-  //   link: "https://www.threads.net/@miedoalexito_uy",
+  //   link: "https://www.threads.net/@desembarco_dco",
   // },
   // {
   //   name: "Facebook",
   //   icon: FacebookIcon,
-  //   link: "https://www.facebook.com/miedoalexito.uy",
+  //   link: "https://www.facebook.com/desembarco.tv",
   // },
 ];
