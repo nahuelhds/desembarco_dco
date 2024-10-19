@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "@/public/img/logo-byn.svg";
-import { fontZuume } from "@/app/fonts";
+import { fontDco } from "@/app/fonts";
 
 export default function ThanksPage() {
   return (
@@ -17,13 +17,13 @@ export default function ThanksPage() {
             Desembarco (DCO)
           </h1>
           <h2
-            className={`${fontZuume.className} mb-8 mt-16 text-4xl md:text-7xl`}
+            className={`${fontDco.className} mb-8 mt-16 text-4xl md:text-7xl`}
           >
             ¡Gracias por sumarte a esta comunidad!
           </h2>
           <a
             href={"../"}
-            className="inline-flex items-center justify-center rounded-lg bg-violet-600 p-4 text-xl text-violet-100 shadow-sm ring-1 ring-inset ring-violet-950 first:mt-0 last:mb-0 hover:bg-violet-700"
+            className="inline-flex items-center justify-center rounded-lg p-4 text-xl text-blue-100 shadow-sm ring-1 ring-inset ring-blue-950 first:mt-0 last:mb-0 hover:bg-orange-700"
           >
             Volver a la página principal
           </a>

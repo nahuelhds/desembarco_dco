@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        zuume: ["var(--font-zuume)"],
+        dco: ["var(--font-dco)"],
       },
       backgroundColor: {
         primary: "var(--color-primary)",

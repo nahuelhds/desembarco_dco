@@ -1,6 +1,6 @@
 import Image from "next/image";
 import logo from "@/public/img/logo-byn.svg";
-import { fontZuume } from "@/app/fonts";
+import { fontDco } from "@/app/fonts";
 
 export default function UpsPage() {
   return (
@@ -17,7 +17,7 @@ export default function UpsPage() {
             Desembarco (DCO)
           </h1>
           <h2
-            className={`${fontZuume.className} mb-8 mt-16 text-4xl md:text-7xl`}
+            className={`${fontDco.className} mb-8 mt-16 text-4xl md:text-7xl`}
           >
             ¡Ups! Algo pasó en el proceso de pago
           </h2>
@@ -26,14 +26,14 @@ export default function UpsPage() {
             <br /> Si el problema persiste,{" "}
             <a
               href={"mailto:miedoalexito.uy@gmail.com"}
-              className={"text-violet-200 underline"}
+              className={"text-blue-200 underline"}
             >
               contactate con nosotrxs.
             </a>
           </p>
           <a
             href={"../"}
-            className="inline-flex items-center justify-center rounded-lg bg-violet-600 p-4 text-xl text-violet-100 shadow-sm ring-1 ring-inset ring-violet-950 first:mt-0 last:mb-0 hover:bg-violet-700"
+            className="inline-flex items-center justify-center rounded-lg bg-blue-600 p-4 text-xl text-blue-100 shadow-sm ring-1 ring-inset ring-blue-950 first:mt-0 last:mb-0 hover:bg-blue-700"
           >
             Volver a la página principal
           </a>

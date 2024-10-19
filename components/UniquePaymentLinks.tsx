@@ -24,10 +24,10 @@ function PaymentLink({ name, link }: PaymentLink) {
   return (
     <a
       href={link}
-      className="inline-flex w-full items-center justify-center rounded-lg bg-transparent p-3 font-zuume text-xl text-violet-100 shadow-sm ring-1 ring-inset ring-violet-950 first:mt-0 last:mb-0 hover:bg-orange-700"
+      className="inline-flex w-full items-center justify-center rounded-lg bg-transparent p-3 text-xl text-blue-100 shadow-sm ring-1 ring-inset ring-blue-950 first:mt-0 last:mb-0 hover:bg-orange-700"
     >
       <CurrencyDollarIcon
-        className="-ml-1 mr-1 h-8 w-8 text-violet-100"
+        className="-ml-1 mr-1 h-8 w-8 text-blue-100"
         aria-hidden="true"
       />
       {name}

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { fontZuume } from "@/app/fonts";
 import logo from "../public/img/logo-byn.svg";
 
 export function TradeMark() {
@@ -15,7 +14,7 @@ export function TradeMark() {
         Desembarco (DCO)
       </h1>
       <h2
-        className={`${fontZuume.className} mt-8 text-6xl md:ml-8 md:mt-0 md:text-8xl`}
+        className={`mt-8 text-3xl md:ml-8 md:mt-0 md:text-6xl`}
       >
         Estamos mutando...
       </h2>

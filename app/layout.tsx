@@ -5,20 +5,20 @@ import { keywords } from "@/config/metadata";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Desembarco (DCO)",
+  title: "Desembarco - DCO",
   description: "⚒️ Estamos mutando...",
   openGraph: {
-    title: "Desembarco (DCO)",
+    title: "Desembarco - DCO",
     description: "⚒️ Estamos mutando...",
     images: ["/img/metadata-logo.jpg"],
   },
   twitter: {
-    title: "Desembarco (DCO)",
+    title: "Desembarco - DCO",
     description: "⚒️ Estamos mutando...",
     images: ["/img/metadata-logo.jpg"],
   },
   appleWebApp: {
-    title: "Desembarco (DCO)",
+    title: "Desembarco - DCO",
     startupImage: ["/img/metadata-logo.jpg"],
   },
   keywords,
