@@ -17,7 +17,7 @@ export default function UpsPage() {
             Desembarco (DCO)
           </h1>
           <h2
-            className={`${fontDco.className} mb-8 mt-16 text-4xl md:text-7xl`}
+            className={`mb-8 mt-16 text-4xl md:text-7xl`}
           >
             ¡Ups! Algo pasó en el proceso de pago
           </h2>
@@ -25,15 +25,15 @@ export default function UpsPage() {
             Volvé a la home y probá de nuevo.
             <br /> Si el problema persiste,{" "}
             <a
-              href={"mailto:miedoalexito.uy@gmail.com"}
-              className={"text-blue-200 underline"}
+              href={"mailto:desembarco.tv@gmail.com"}
+              className={"text-blue-800 underline"}
             >
               contactate con nosotrxs.
             </a>
           </p>
           <a
             href={"../"}
-            className="inline-flex items-center justify-center rounded-lg bg-blue-600 p-4 text-xl text-blue-100 shadow-sm ring-1 ring-inset ring-blue-950 first:mt-0 last:mb-0 hover:bg-blue-700"
+            className="inline-flex items-center justify-center rounded-lg p-4 text-xl text-blue-100 shadow-sm ring-1 ring-inset ring-blue-950 first:mt-0 last:mb-0 hover:bg-orange-700"
           >
             Volver a la página principal
           </a>
