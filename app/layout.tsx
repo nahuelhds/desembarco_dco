@@ -10,44 +10,50 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Desembarco - DCO",
     description: "⚒️ Estamos mutando...",
-    images: ["/img/metadata-logo.jpg"],
+    images: ["/img/metadata-logo.jpg"]
   },
   twitter: {
     title: "Desembarco - DCO",
     description: "⚒️ Estamos mutando...",
-    images: ["/img/metadata-logo.jpg"],
+    images: ["/img/metadata-logo.jpg"]
   },
   appleWebApp: {
     title: "Desembarco - DCO",
-    startupImage: ["/img/metadata-logo.jpg"],
+    startupImage: ["/img/metadata-logo.jpg"]
   },
   keywords,
+  // See: https://github.com/vercel/next.js/discussions/58048
+  verification: {
+    other: {
+      "facebook-domain-verification": ["pp5bb3khr1xxa3vu5hubaa73jm1q54"]
+    }
+  }
 };
 
 export default function RootLayout({
-  children,
-}: {
+                                     children
+                                   }: {
   children: React.ReactNode;
 }) {
   return (
     <html lang="es" className={fontDMSans.className}>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-DYT6J2BCM9" />
-      <Script id="google-analytics">
-        {`
+    <Script src="https://www.googletagmanager.com/gtag/js?id=G-DYT6J2BCM9" />
+    <Script id="google-analytics">
+      {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
         
           gtag('config', 'G-DYT6J2BCM9');
         `}
-      </Script>
-      <Script
-        async
-        id="google-adsense-account"
-        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2186237898462075"
-        crossOrigin="anonymous"
-      />
-      {children}
+    </Script>
+    <Script
+      async
+      id="google-adsense-account"
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2186237898462075"
+      crossOrigin="anonymous"
+    />
+    {children}
     </html>
   );
 }
