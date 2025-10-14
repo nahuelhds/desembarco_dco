@@ -33,7 +33,7 @@ export function SocialLinks() {
 
 function SocialLink({ name, icon, link }: SocialLink) {
   return (
-    <a href={link} className="inline-flex w-full items-center justify-center">
+    <a href={link} target="_blank" className="inline-flex w-full items-center justify-center">
       <Image src={icon} className={"mx-2"} alt={name} width={50} />
       <span className={"sr-only"} aria-hidden>
         {name}

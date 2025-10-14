@@ -1,24 +1,24 @@
 import "./globals.css";
 import { Metadata } from "next";
-import { fontDMSans } from "@/app/fonts";
+import { fontDMSans, fontDco } from "@/app/fonts";
 import { keywords } from "@/config/metadata";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Desembarco - DCO",
-  description: "⚒️ Estamos mutando...",
+  title: "DCO Stream",
+  description: "No somos neutrales: somos artiguistas.",
   openGraph: {
-    title: "Desembarco - DCO",
-    description: "⚒️ Estamos mutando...",
+    title: "DCO Stream",
+    description: "No somos neutrales: somos artiguistas.",
     images: ["/img/metadata-logo.jpg"]
   },
   twitter: {
-    title: "Desembarco - DCO",
-    description: "⚒️ Estamos mutando...",
+    title: "DCO Stream",
+    description: "No somos neutrales: somos artiguistas.",
     images: ["/img/metadata-logo.jpg"]
   },
   appleWebApp: {
-    title: "Desembarco - DCO",
+    title: "DCO Stream",
     startupImage: ["/img/metadata-logo.jpg"]
   },
   keywords,
@@ -36,7 +36,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="es" className={fontDMSans.className}>
+    <html lang="es" className={fontDco.className}>
     <Script src="https://www.googletagmanager.com/gtag/js?id=G-DYT6J2BCM9" />
     <Script id="google-analytics">
       {`
