@@ -4,7 +4,7 @@ import { PaymentLink, UNIQUE_PAYMENTS } from "@/config/payment-links";
 export function UniquePaymentLinks() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <p className={"text-center text-xl lg:text-3xl"}>Hacé un aporte único</p>
+      <p className={"text-center text-2xl lg:text-4xl"}>Aportá <strong><em>por única vez</em></strong></p>
       <div
         className={
           "my-4 mb-12 grid w-full grid-cols-2 justify-center lg:mb-6 lg:flex lg:grid-cols-none lg:flex-row"
