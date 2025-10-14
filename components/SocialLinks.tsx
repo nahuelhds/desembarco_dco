@@ -4,8 +4,8 @@ import Image from "next/image";
 export function SocialLinks() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <p className={"text-center text-xl"}>
-        Seguinos, compartí, faveá, activá la campanita y todo lo que ya sabés.
+      <p className={"text-center text-xl md:text-2xl"}>
+        <em>Seguinos, compartí, faveá, activá la campanita y todo lo que ya sabés.</em>
       </p>
       <div
         className={
