@@ -14,9 +14,9 @@ export default function Home() {
         <SubscriptionLinks />
         <UniquePaymentLinks />
         <div className={"lg:flex lg:items-center lg:justify-center"}>
-          <div className={"lg:mx-2"}>
-            <BankTransferLinks />
-          </div>
+          {/*<div className={"lg:mx-2"}>*/}
+          {/*  <BankTransferLinks />*/}
+          {/*</div>*/}
           <div className={"lg:mx-2"}>
             <InternationalPaymentLinks />
           </div>

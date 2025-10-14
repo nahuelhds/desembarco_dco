@@ -1,4 +1,4 @@
-// import FacebookIcon from "@/app/icons/facebook.svg";
+import FacebookIcon from "@/app/icons/facebook.svg";
 import InstagramIcon from "@/app/icons/instagram.svg";
 import SpotifyIcon from "@/app/icons/spotify.svg";
 import TikTokIcon from "@/app/icons/tiktok.svg";
@@ -20,13 +20,13 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "YouTube",
     icon: YouTubeIcon,
-    link: "https://www.youtube.com/@desembarco_dco",
+    link: "https://www.youtube.com/@dco_stream",
   },
-  {
-    name: "Twitch",
-    icon: TwitchIcon,
-    link: "https://www.twitch.tv/desembarco_tv",
-  },
+  // {
+  //   name: "Twitch",
+  //   icon: TwitchIcon,
+  //   link: "https://www.twitch.tv/dco_streaming",
+  // },
   {
     name: "Spotify",
     icon: SpotifyIcon,
@@ -35,26 +35,26 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     name: "TikTok",
     icon: TikTokIcon,
-    link: "https://www.tiktok.com/@desembarco_dco",
+    link: "https://www.tiktok.com/@dco_stream",
   },
   {
     name: "Instagram",
     icon: InstagramIcon,
-    link: "https://instagram.com/desembarco_dco",
+    link: "https://instagram.com/dco_stream",
   },
   {
     name: "X",
     icon: XIcon,
-    link: "https://twitter.com/desembarco_dco",
+    link: "https://twitter.com/dco_stream",
   },
   // {
   //   name: "Threads",
   //   icon: ThreadsIcon,
-  //   link: "https://www.threads.net/@desembarco_dco",
+  //   link: "https://www.threads.net/@dco_stream",
   // },
-  // {
-  //   name: "Facebook",
-  //   icon: FacebookIcon,
-  //   link: "https://www.facebook.com/desembarco.tv",
-  // },
+  {
+    name: "Facebook",
+    icon: FacebookIcon,
+    link: "https://www.facebook.com/dco.stream",
+  },
 ];
