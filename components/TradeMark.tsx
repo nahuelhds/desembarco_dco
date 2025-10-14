@@ -16,7 +16,7 @@ export function TradeMark() {
       <h2
         className={`mt-8 text-3xl md:ml-8 md:mt-0 md:text-6xl`}
       >
-        Estamos mutando...
+        No somos neutrales: somos artiguistas
       </h2>
     </div>
   );
