@@ -10,11 +10,11 @@ export default function ThanksPage() {
           <Image
             className="logo h-auto w-52"
             src={logo}
-            alt="Desembarco (DCO)"
+            alt="DCO Stream"
             priority
           />
           <h1 aria-hidden={true} className={"hidden"}>
-            Desembarco (DCO)
+            DCO Stream
           </h1>
           <h2
             className={`${fontDco.className} mb-8 mt-16 text-4xl md:text-7xl`}

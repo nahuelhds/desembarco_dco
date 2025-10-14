@@ -7,11 +7,11 @@ export function TradeMark() {
       <Image
         className="logo h-auto w-52 -mb-12 md:mb-0"
         src={logo}
-        alt="Desembarco (DCO)"
+        alt="DCO Stream"
         priority
       />
       <h1 aria-hidden={true} className={"hidden"}>
-        Desembarco (DCO)
+        DCO Stream
       </h1>
       <h2
         className={`mt-8 text-4xl md:ml-8 md:mt-0 md:text-5xl lg:text-6xl`}
