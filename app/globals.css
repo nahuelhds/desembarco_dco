@@ -5,19 +5,30 @@
 :root {
     --color-white: #ffffff;
     --color-black: #000000;
-    --color-primary: #FF914D;
-    --color-secondary: #FF5252;
+    --color-primary: #FF510C;
+    --color-secondary: #FA0606;
     --font-color: var(--color-white);
-    --background-color-primary: var(--color-secondary);
+    --background-color-primary: #000;
 }
 
 body {
     color: var(--font-color);
     background-color: var(--background-color-primary);
-    background: radial-gradient(
-            var(--color-primary),
-            var(--color-secondary)
-    ) var(--color-secondary);
+}
+
+body::after {
+    content: "";
+    background-image: url("/img/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: -1;
 }
 
 @media screen(sm) {
