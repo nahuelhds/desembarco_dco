@@ -28,16 +28,6 @@ export const SOCIAL_LINKS: SocialLink[] = [
   //   link: "https://www.twitch.tv/dco_streaming",
   // },
   {
-    name: "Spotify",
-    icon: SpotifyIcon,
-    link: "https://open.spotify.com/show/0xlYUQCFKYmYqV1gp0MNtz?si=a910249d860943f9",
-  },
-  {
-    name: "TikTok",
-    icon: TikTokIcon,
-    link: "https://www.tiktok.com/@dco_stream",
-  },
-  {
     name: "Instagram",
     icon: InstagramIcon,
     link: "https://instagram.com/dco_stream",
@@ -46,6 +36,11 @@ export const SOCIAL_LINKS: SocialLink[] = [
     name: "X",
     icon: XIcon,
     link: "https://twitter.com/dco_stream",
+  },
+  {
+    name: "TikTok",
+    icon: TikTokIcon,
+    link: "https://www.tiktok.com/@dco_stream",
   },
   // {
   //   name: "Threads",
@@ -56,5 +51,10 @@ export const SOCIAL_LINKS: SocialLink[] = [
     name: "Facebook",
     icon: FacebookIcon,
     link: "https://www.facebook.com/dco.stream",
+  },
+  {
+    name: "Spotify",
+    icon: SpotifyIcon,
+    link: "https://open.spotify.com/show/0xlYUQCFKYmYqV1gp0MNtz?si=a910249d860943f9",
   },
 ];
