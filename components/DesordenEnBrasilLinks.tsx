@@ -13,10 +13,10 @@ export function DesordenEnBrasilLinks() {
         </p>
         <div className="my-4 max-w-6xl space-y-2 text-center text-base md:text-lg lg:text-xl text-orange-100/90 leading-relaxed">
           <p>
-            Con <strong>Desorden Internacional</strong> queremos ir a cubrir la segunda vuelta electoral de Brasil.
+            Con <strong>Desorden Internacional</strong> queremos cubrir la segunda vuelta electoral de Brasil.
           </p>
           <p>
-            Colaborá con nosotros y ayudanos a cubrir este hecho central de la política regional.
+            Colaborá con nosotros para poder documentar en este hecho central de la política regional.
           </p>
         </div>
         <div
