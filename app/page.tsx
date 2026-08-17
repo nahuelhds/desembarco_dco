@@ -11,6 +11,7 @@ export default function Home() {
       <main className="flex min-h-screen flex-col place-content-evenly">
         <TradeMark />
         <DesordenEnBrasilLinks />
+        <SocialLinks />
         <SubscriptionLinks />
         <UniquePaymentLinks />
         <div className={"lg:flex lg:items-center lg:justify-center"}>
@@ -18,7 +19,6 @@ export default function Home() {
             <InternationalPaymentLinks />
           </div>
         </div>
-        <SocialLinks />
       </main>
       <div className={"bg-left opacity-5"}></div>
       <div className={"bg-right opacity-5"}></div>

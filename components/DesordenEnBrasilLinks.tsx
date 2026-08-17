@@ -6,24 +6,33 @@ import {
 
 export function DesordenEnBrasilLinks() {
   return (
-    <div className="flex flex-col items-center justify-center">
-      <p className="my-2 max-w-3xl px-4 text-center text-2xl md:text-3xl lg:text-4xl">
-        Ayudá al equipo de <strong><em>Desorden Internacional</em></strong> a ir
-        a cubrir la segunda vuelta en <strong>Brasil</strong>
-      </p>
-      <div
-        className={
-          "my-4 mb-12 grid w-full grid-cols-2 justify-center lg:mb-6 lg:flex lg:grid-cols-none lg:flex-row"
-        }
-      >
-        {UNIQUE_PAYMENTS_DI_BRASIL.map((uniquePayment) => (
-          <div className={"m-2 lg:my-0 lg:w-44"} key={uniquePayment.name}>
-            <PaymentLink
-              link={uniquePayment.link}
-              name={uniquePayment.name}
-            />
-          </div>
-        ))}
+    <div className="mx-auto my-6 w-full max-w-7xl px-4">
+      <div className="flex flex-col items-center justify-center rounded-2xl bg-black p-6 md:p-8 shadow-2xl ring-1 ring-orange-950">
+        <p className="text-center text-3xl md:text-4xl lg:text-5xl font-normal">
+          Ayudanos a cubrir las <strong>Elecciones de Brasil</strong>
+        </p>
+        <div className="my-4 max-w-6xl space-y-2 text-center text-base md:text-lg lg:text-xl text-orange-100/90 leading-relaxed">
+          <p>
+            Con <strong>Desorden Internacional</strong> queremos ir a cubrir la segunda vuelta electoral de Brasil.
+          </p>
+          <p>
+            Colaborá con nosotros y ayudanos a cubrir este hecho central de la política regional.
+          </p>
+        </div>
+        <div
+          className={
+            "my-0 grid w-full grid-cols-2 justify-center lg:mb-2 lg:flex lg:grid-cols-none lg:flex-row"
+          }
+        >
+          {UNIQUE_PAYMENTS_DI_BRASIL.map((uniquePayment) => (
+            <div className={"m-2 lg:my-0 lg:w-44"} key={uniquePayment.name}>
+              <PaymentLink
+                link={uniquePayment.link}
+                name={uniquePayment.name}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
