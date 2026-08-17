@@ -58,6 +58,25 @@ export const UNIQUE_PAYMENTS = [
   },
 ];
 
+export const UNIQUE_PAYMENTS_DI_BRASIL = [
+  {
+    name: "100",
+    link: process.env.UNIQUE_PAYMENT_DI_BRASIL_0100 ?? "#",
+  },
+  {
+    name: "200",
+    link: process.env.UNIQUE_PAYMENT_DI_BRASIL_0200 ?? "#",
+  },
+  {
+    name: "500",
+    link: process.env.UNIQUE_PAYMENT_DI_BRASIL_0500 ?? "#",
+  },
+  {
+    name: "1000",
+    link: process.env.UNIQUE_PAYMENT_DI_BRASIL_1000 ?? "#",
+  },
+];
+
 export const BANK_TRANSFER_LINKS = [
   {
     name: "BROU o Itaú",

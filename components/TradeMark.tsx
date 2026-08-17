@@ -14,7 +14,7 @@ export function TradeMark() {
         DCO Stream
       </h1>
       <h2
-        className={`mt-8 text-4xl md:ml-8 md:mt-0 md:text-5xl lg:text-6xl`}
+        className={`mt-20 text-4xl md:ml-8 md:mt-0 md:text-5xl lg:text-6xl`}
       >
         No somos <em>neutrales.</em><br/><strong>Somos artiguistas.</strong>
       </h2>
